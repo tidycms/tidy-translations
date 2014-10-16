@@ -9,3 +9,5 @@ Our default language is english and also fallback if current language does not c
 
 We recommend using http://www.jsoneditoronline.org/ as a tool in writing translations and checking JSON-syntax (if no better tools available.
 
+Tidy team will be notified if there are any commits on translations and they will be included in the next release of the UI after review.
+
