@@ -1,7 +1,7 @@
 tidy-translations
 =================
 
-TidyCMS translation files. Checkout and commit to provide better experience for your clients.
+TidyCMS (http://tidycms.com) - translation files. Checkout and commit to provide better experience for your clients.
 
 We use i18next as our translate system (http://i18next.com/).
 
