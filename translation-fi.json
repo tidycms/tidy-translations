@@ -1,0 +1,364 @@
+{
+
+"ui": {
+	"back": "Takaisin",
+	"email": "Sähköposti",
+	"password": "Salasana",
+	"cancel": "Peruuta",
+	"file": "Tiedosto",
+	"directory": "Kansio",
+	"new": "Uusi",
+	"save_changes": "Tallenna muutokset"
+},
+
+"error": {
+	"connection": "Virhe TidyCMS:n PHP:ssä. Lataa ja asenna tidycms.zip uudelleen osoitteesta <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+	"missing_required_data": "Vaadittu tieto puuttuu",
+	"user": {
+		"email_invalid": "Sähköpostiosoite on väärän muotoinen.",
+		"weak_password": "Salasanasi on liian yksinkertainen. Keksi monimutkaisempi.",
+		"password_mismatch": "Salasanat eivät täsmää.",
+		"accountnotfound": "Käytäjätunnusta ei ole olemassa. Pyydä ylläpitäjää luomaan sinulle tunnus.",
+		"wrongpassword": "Väärä salasana. Yritä uudelleen tai luo uusi salasana klikkaamalla \"Salasana unohtunut\"-linkkiä.",
+		"no_invite": "Kutsukoodisi ei ole voimassa tässä sivustossa. Pyydä ylläpitäjääsi kutsumaan sinut uudelleen.",
+		"alreadyexists": "Tällä sähköpostiosoitteella on jo rekisteröidytty. Kirjaudu sisälle tai käytä toista osoitetta.",
+		"confirm_fail": "Vahvistus epäonnistui. Yritä uudeelleen."
+	},
+	"authentication": {
+		"api": "Tunnistautuminen epäonnistui, kirjaudu uudelleen.",
+		"client": "Tunnistautuminen epäonnistui, kirjaudu uudelleen."
+	},
+	"timediff_60s_more": "Palvelimesi aika eroaa yli 60 sekuntia yleisajasta. Ota yhteyttä palvelimen ylläpitäjään.",
+	"timediff_60m_more": "Palvelimesi aika eroaa yli 60 minuuttia yleisajasta. Ota yhteyttä palvelimen ylläpitäjään.",	
+	"technical": "Tekninen virhe. Ota yhteyttä tukeen.",
+	"file": {
+		"not_exists": "Tiedostoa ei löydy.",
+		"not_writable": "Et voi muokata tiedostoa, koska sinulla ei ole kirjoitusoikeutta siihen.",
+		"upload": "Tiedoston lataus epäonnistui.",
+		"upload_permission": "Lataus epäonistui. Tarkista käyttöoikeudet.",
+		"create_failed": "Tiedostoa ei voitu luoda. Tarkista käyttöoikeudet.",
+		"filename_slashend": "Virhe: poista kenoviiva tiedoston nimen lopusta.",
+		"filename_htmlend": "Virhe: poista .html tiedoston nimen lopusta.",
+		"unable_to_remove": "Virhe: Tiedostoa ei voitu poistaa.",
+		"no_html_files_found": "Virhe: Yhtään .html-tiedostoa ei löytynyt. Tidy tarvitsee vähintään yhden html-tiedoston toimiakseen."	
+	},
+	"update": {
+		"failed": "TidyCMSn päivityksessä tapahtui virhe. Hae uusin versio tästä tidycms.zip:stä: täältä <a href=\"http://tidycms.com\">http://tidycms.com</a> ja asenna se uudelleen."
+	},
+	"element_not_found": "Elementtiä ei löytynyt tällä kyselyllä."
+},
+
+"user": {
+	"login": {
+		"title": "Kirjaudu tunnuksellasi",
+		"forgot_password": "Salasana unohtunut",
+		"send_new_pw": "Lähetä uusi salasana",
+		"new_password_sent": "Salasana lähetetty.",
+		"confirm_new_pw": "Vahvista salasanapyyntö kirjoittamalla kentään seuraavt numerot: ",
+		"label": {
+			"email": "Sähköposti",
+			"password": "Salasana"
+		}
+	},
+	"account": {
+		"create_title": "Luo käyttäjätili",
+		"login_title": "Kirjaudu TidyCMS-tunnuksellasi",
+		"label": {
+			"name": "Nimi",
+			"first": "Etunimi",
+			"last": "Sukunimi",
+			"email": "Sähköpostiosoite",
+			"new_password": "Vaihda salasana",
+			"confirm": "Vahvista salasana",
+			"date_added": "Lisätty",
+			"language": "Kieli"
+		},
+		"tab": {
+			"account": "Käyttäjätilisi",
+			"siteusers": "Sivuston käyttäjät"
+		},
+		"button": {
+			"create": "Luo käyttäjätili",
+			"login": "Kirjaudu",
+			"update": "Päivitä tili"
+		},
+		"updated": "Tili päivitetty onnistuneesti",
+		"lang_changed": "Kieliasetus on vaihtunut. Lataa uusi kieli käyttöön?"
+	},
+	"invite": {
+		"label": "Kutsu käyttäjiä",
+		"placeholder": "osoite.yksi@palvelin.fi, toinen.osoite@palvelu.com...",
+		"button": "Kutsu",
+		"already_invited": "__email__ on jo kutsuttu tähän sivustoon.",
+		"invite_yourself": "Et voi kutsua itseäsi.",
+		"mail_already_added": "Tämä osoite on jo listalla.",
+		"success": "__invitecount__ uutta käyttäjää kutsuttu sivustoon.",
+		"remove": "Haluatko varmasti poistaa tämän käyttäjän sivustostasi?",
+		"user_removed": "__adr__ poistettu sivustosta."
+	},
+	"status": {
+		"invited": "Kutsuttu"
+	},
+	"role": "Rooli",
+	"role_designer": "Pääkäyttäjä",
+	"role_user": "Käyttäjä"
+},
+
+"site": {
+	"notfound": "Sivustoa ei löytynyt tällä osoitteella.",
+	"start": {
+		"title": "Tervetuloa TidyCMSään!",
+		"new_user_btn": "Uusi käyttäjä",
+		"login_with_account": "Kirjaudu TidyCMS-tunukella"
+	},
+	"perms": {
+		"tab": "Tiedosto-oikeudet",
+		"title": "Aseta sivustosi tiedosto-oikeudet",
+		"permissions": "Oikeudet",
+		"status": {
+			"current": "Nykytilanne",
+			"writable": "Kirjoitusoikeus",
+			"html": "HTML-tiedostot",
+			"dirs": "Kansiot",
+			"tidy": "TidyCMS-tiedostot"
+		},
+		"fix_title": "Aseta tiedostojen kirjoitusoikeudet",
+		"label": {
+			"method": "Yhteystapa",
+			"server": "Palvelin",
+			"port": "Portti",
+			"user": "Käyttäjätunnus"
+		},
+		"button": {
+			"setperms": "Aseta oikeudet",
+			"checkperms": "Tarkista oikeudet"
+		},
+		"cmd_title": "Komentorivi (edistyneille)",
+		"step1": "Ota SSH-yhteys sivustoosi",
+		"step2": "Mene sivustosi tidycms-kansioon",
+		"step3": "AJa komento:"
+	},
+	"validate": {
+		"failed": "Vahvistus epäonnistus, ota yhteyttä sivustosi ylläpitäjään.",
+		"email_success": "Osoite __email__ vahvistettu!",
+		"already_validated": "Osoite __email__ on jo vahvistettu."
+	},
+	"goto": {
+		"site": "Mene sivustoosi",
+		"login": "Kirjaudu julkaisujärjestelmään"
+	}
+},
+
+"editor": {
+	"loading_cms": "TidyCMS latautuu...odota hetki.",
+	"confirm_logout": "Haluatko varmasti kirjautua ulos?",
+	"label": {
+		"editable": "Muokkaa",
+		"imgup": "Muokkaa kuvaa",
+		"move": "Siirrä",
+		"editmove": "Muokkaa tai siirrä"
+	},
+	"tool": {
+		"savechanges": "Tallenna muutokset",
+		"newpage": {
+			"toolbarbtn": "Luo uusi sivu",
+			"title": "Luo uusi sivu",
+			"label": {
+				"template": "Valitse sivupohja",
+				"pagetitle": "Sivun otsikko",
+				"filename": "Uusi tiedostonimi",
+				"addtomenu": "Lisää valikkoon",
+				"menuname": "Valikkoteksti"
+			},
+			"createbtn": "Luo uusi sivu",
+			"error": {
+				"tpl_notfound": "Sivupohjaa ei löytynyt",
+				"no_tpls": "Tähän sivustoon ei ole luotu yhtään sivupohjaa, joten et voi tehdä uusia sivuja."
+			},
+			"page_created": "Sivue __ilename__ luotu"
+		},
+		"newmenulink": {
+			"title": "Lisää uusi linkki",
+			"name": {
+				"label": "Nimi",
+				"placeholder": "Sivun nimi"
+			},
+			"page_label": "Valitse sivu",
+			"href": {
+				"label": "Linkki",
+				"placeholder": "/kansio/alakansio/sivu.html"
+			},
+			"target": {
+				"label": "Linkki avautuu",
+				"sametab": "Samaan ikkunaan",
+				"newtab": "Uuteen ikkunaan (_blank)"
+			},
+			"createbtn": "Luo uusi linkki"
+		},
+		"pageinfo": {
+			"toolbarbtn": "Sivun tiedot",
+			"tab": {
+				"pageinfo": "Sivun tiedot",
+				"analytics": "Analytiikka"
+			},
+			"label": {
+				"title": "Otsikko",
+				"desc": "Kuvaus"
+			},
+			"removebtn": "Poista sivu",
+			"remove_confirm": "Haluatko varmasti poistaa sivun? Jos olet varma, syötä seuraavat numerot alla olevaan kenttään: ",
+			"remove_success": "Sivu __name__ poistettu!"
+		},
+		"pages": {
+			"label": "Sivut",
+			"title": "Sivut",
+			"unwritable_file": "Tähän tiedostoon ei voi kirjoittaa. <a href=\"#\" class=\"fix unwritable\">Korjaa</a>",
+			"unwritable_dir": "Tähän kansioon ei voi kirjoittaa. <a href=\"#\" class=\"fix unwritable\">Korjaa</a>"
+		},
+		"source": {
+			"label": "Lähdekoodi",
+			"title": "Muokkaa lähdekoodia",
+			"update": "Tallenna lähdekoodi",
+			"test": "Testaa",
+			"run": "SUorita",
+			"update_success": "Sivun __name__ lähdekodi päivitetty",
+			"error": {
+				"empty": "Et voi poistaa kaikkea. Poista mieluummin koko sivu."
+			}
+		},
+		"picker": {
+			"label": "Tee sisällöstä muokattava",
+			"pageinpickermode": "Valintatila: Valitse ne elementit, joista haluat tehdä muokattavsia (sivun javascriptit poistettu käytöstä)",
+			"wintitle": "Muokkaa elementin asetuksia",
+			"options": {
+				"title": "Elementti",
+				"element": "Tähän elementtiin",
+				"siblings": "Tämän elementin samaa tyypiä oleviin sisarelementteihin",
+				"sitewide": "Tähän elementtiin sivuston kaikilla sivuilla"
+			},
+			"cls": {
+				"groupname": "Muokkaa asetuksia",
+				"editable": "Tee sisällöstä muokattava",
+				"imgup": "Mahdollista kuvien vaihto",
+				"repeatable": "Mahdollista elementin alla olevien elementtien lisäys, poisto ja järjestäminen"
+			},
+			"attr": {
+				"groupname": "Asetukset",
+				"sitewide": "Elementin sisältö on sama kaikilla sivuston sivuilla"
+			},
+			"changesdone_onefile": "Elementtiä muokattu onnistuneesti tiedostossa __file__",
+			"changesdone_multiple": "Elementtiä muokattu onnistuneesti __file__ tiedostossa"
+		},
+		"forms": {
+			"tab": "Lomakkeet",
+			"handler": "Lomakekäsittelijä",
+			"hid": "Käsittelijän tunniste",
+			"new_handler": "Uusi lomakekäsittelijä luotu!",
+			"hand_updated": "Lomakekäsittelijä päivitetty!",
+			"hand_removed": "Lomakekäsittelijä poistettu",
+			"example": "Lomakekäsittelyesimerkki",
+			"receiver_validated_true": "ok",
+			"receiver_validated_false": "odottaa",
+			"methods": {
+				"label": "Miten lomake lähetetään",
+				"select": "Valitse lähetystapa",
+				"email": "Lähetä sähköpostitse",
+				"post": "HTTP POST palvelimelle"
+			},
+			"email": {
+				"placeholder": "vastaanottaja@osoite.com",
+				"subject": "Viestin aihe",
+				"subject_ph": "Yhteydenottolomake"
+			},
+			"post": {
+				"placeholder": "oma.palvelinr.com/oikea/polku/tahan"
+			},
+			"capcha": {
+				"enable": "Roskapostiesto päällä",
+				"question_label": "CAPTCHA-kysymyksen teksti",
+				"questiontext1": "Kirjoita seuraavat numerot kenttään (roskapostiesto)"
+			},
+			"save": "Tallenna",
+			"grid": {
+				"handler": "Käsittelijä",
+				"creator": "Luoja",
+				"method": "Tapa",
+				"receiver": "Vastaanottaja",
+				"validated": "Vahvistettu",
+				"edit": "Muokkaa",
+				"create": "Luo uusi lomakekäsittelijä",
+				"confirm_remove": "Haluatko varmasti poistaa tämän käsittelijän?"
+			}
+		},
+		"preview": {
+			"desktop": "Normaalinäkymä",
+			"tablet": "Tablettinäkymä",
+			"mobile": "Puhelinnäkymä"
+		},
+		"menu": {
+			"placeholder": "Valitse valikko",
+			"nomenu": "Ei valikkoa"	
+		},
+		"importer": {
+			"label": "Tuo sivuja",
+			"title": "Tuo sivuja toiselta sivustolta",
+			"button": {
+				"test": "Testaa",
+				"start": "Käynnistä",
+				"stop": "Pysäytä"
+			}
+		},
+		"copypaste": {
+			"title": "Tuo sisältöä toiselta sivulta",
+			"guide": "Anna sivun osoite"
+		},
+		"styles": {
+			"label": "Tyylieditori",
+			"title": "Värit ja tyylit",
+			"confirm_close": "Sinulla on tallentamattomia muutoksia. Haluatko varmasti sulkea ikkunan ja menettää kaikki muutokset?",
+			"updated": "Muutokset päivitetty.",
+			"not_updated": "Tyylejä ei voitu päivittää. Todennäköisesti less-tiedoston syntaksissa on virhe."
+		},
+		"emote": {
+			"title_happy": "Olet iloinen! Loistavaa! Kerro meille miksi.",
+			"title_confused": "Hämmentynyt? Kerro miksi, niin selitämme.",
+			"title_angry": "Vihainen? Kerro miksi, niin parannamme tapamme.",
+			"placeholder": "Kerro tunteistasi!",
+			"send": "Lähetä",
+			"feedback_required": "Kirjoita joitain! Haluamme kuulla ajatuksiasi!",
+			"received": "Viesti lähetetty! Kiitos! Palautteesi ansiosta voimme tehdä TidyCMS:stä paremman."
+		},
+		"import_content": "Tuo sisältöä",
+		"sourcecode": "Sivun lähdekoodi",
+		"siteconf": "Asetukset",
+		"logout": "Kirjaudu ulos",
+		"closebar": {
+			"title_open": "Näytä työkalupalkki",
+			"title_close": "Piilota työkalupalkki"
+		},
+		"edit_content": "Muokkaa sisältöä",
+		"clone": "Kopioi",
+		"add": "Lisää uusi",
+		"remove": "Poista",
+		"move_up": "Siirrä ylöspäin",
+		"move_down": "Siirrä alaspäin"
+	},
+	"oldbrowser": {
+		"title": "Emme ole varmoja, toimiiko TidyCMS (beta) selaimessasi",
+		"desc": "Sen sijaan tiedämme, että TidyCMS toimii seuraavien selaimen uusimmissa versioissa:",
+		"continue": "Tiedän mitä teen! Jatkan tällä selaimella."
+	},
+	"confirm": {
+		"remove_block": "Halutako varmasti poistaa tämän elementin?",
+		"logout": "Haluatko varmasti kirjautua ulos?"
+	},
+	"demo": { 
+		"welcome": "Tervetuloa TidyCMS:n demoon. Tämä demo toimii yhden päivä, jonka jälkeen se poistetaan."
+	},
+	"nothing_to_save": "Ei uusia muutoksia. Mitään ei tallennettu.",
+	"changes_saved": "Tiedosto __file.name__ tallennettu",
+	"link_click_disabled": "Vielä et voi vaihtaa sivua sivustosi valikosta. Käytä Sivut-näkymää joka avataan työkalupalkista."
+}
+
+
+}

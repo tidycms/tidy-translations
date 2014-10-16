@@ -1,0 +1,330 @@
+{
+
+"ui": {
+	"back": "Atras",
+	"email": "Email",
+	"password": "Contraseña",
+	"cancel": "Cancelar",
+	"file": "Archivo",
+	"directory": "Directorio",
+	"new": "Nuevo",
+	"save_changes": "Guardar Cambios"
+},
+
+"error": {
+	"missing_required_data": "Falta información requerida",
+	"connection": "Error con el servidor PHP. Favor de verificar su instalación de PHP (<a href=\"http://tidycms.com/docs/#php-setup\" target=\"_blank\">mas información</a>)",
+	"user": {
+		"email_invalid": "Algo no funcionó con el email.",
+		"weak_password": "Su contraseña no es segura, use mas caracteres.",
+		"password_mismatch": "Las contraseñas no son iguales.",
+		"alreadyexists": "¡Ya existe una cuenta asociada a este email! Intente ingresar en lugar de crear una cuenta nueva.",
+		"accountnotfound": "Esta cuenta no existe. Favor de contactar al administrador para crear una cuenta para usted.",
+		"wrongpassword": "La contraseña no es correcta, intente de nuevo o cambie su contraseña usando el \"Forgot password\" enlace.",
+		"no_invite": "La clave de invitación no es valida. Favor de contactar al administrador para que le proporcione una nueva.",
+		"confirm_fail": "La confirmación falló. Favor de intentar de nuevo."
+	},
+	"authentication": {
+		"api": "La autentificación falló, intente ingresar de nuevo",
+		"client": "La autentificación falló, intente ingresar de nuevo"
+	},
+	"timediff_60s_more": "El horario de su servidor difiere de mas de 60s con el horario universal. Favor de contactar el administrador de su hospedaje.",
+	"timediff_60m_more": "El horario de su servidor difiere de mas de 1 hora con el horario universal. Favor de contactar el administrador de su hospedaje.",
+	"technical": "Error técnico, favo de contactor el soporte.",
+	"file": {
+		"not_exists": "El archivo no existe",
+		"not_writable": "El archivo no se puede editar",
+		"upload": "Falló el envio de archivo",
+		"upload_permission": "No se pudó subir. Verificar los permisos",
+		"create_failed": "Imposible crear el archivo. Verificar los permisos",
+		"filename_slashend": "Error: Quitar la diagonal al final del nombre del archvivo",
+		"filename_htmlend": "Error: Quitar html al final del nombre del archvivo"
+	},
+	"update": {
+		"failed": "Error al actualizar TidyCMS. Favor de descargar y reinstalar tidycms.zip desde <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+	},
+	"element_not_found": "No se encontrarón los elementos necesarios"
+},
+
+"user": {
+	"login": {
+		"title": "Ingresar con su cuenta",
+		"forgot_password": "Contraseña olvidada",
+		"send_new_pw": "Enviar nueva contraseña",
+		"confirm_new_pw": "Confirmar que quiere una nueva contraseña al entrar los siguientes números:",
+		"new_password_sent": "Hemos enviado una nueva contraseña a su correo",
+		"label": {
+			"email": "Email",
+			"password": "Contraseña"
+		}
+	},
+	"account": {
+		"create_title": "Crear su cuenta",
+		"login_title": "Ingresar con su cuenta de TidyCMS",
+		"label": {
+			"name": "Nombre",
+			"first": "Apellidos",
+			"last": "Nombre",
+			"email": "Correo electrónico",
+			"new_password": "Cambiar contraseña",
+			"confirm": "Confirmar contraseña",
+			"date_added": "Añadir"
+		},
+		"tab": {
+			"account": "Su cuenta",
+			"siteusers": "Usuarios"
+		},
+		"button": {
+			"create": "Crear cuenta",
+			"login": "Ingresar",
+			"update": "Actualizar cuenta"
+		},
+		"updated": "Se actualizó la cuenta con éxito"
+	},
+	"invite": {
+		"label": "Invitar usuarios",
+		"placeholder": "firstemail@adr.com, secondadr@somebox.com...",
+		"button": "Invitar",
+		"already_invited": "__email__ ya fue invitado al sitio",
+		"invite_yourself": "No se puede invitar a si mismo",
+		"mail_already_added": "La cuenta de correo ya está en la lista",
+		"success": "__invitecount__ usuarios nuevos invitados al sitio",
+		"remove": "¿Esta seguro de quitar este usuario de su sitio?",
+		"user_removed": "__adr__ fue removido de su sitio"
+	},
+	"status": {
+		"invited": "Invitado"
+	},
+	"role": "Permisos",
+	"role_designer": "Diseñador",
+	"role_user": "Usuario"
+},
+
+"site": {
+	"notfound": "Sitio no encontrado en esta dirección.",
+	"start": {
+		"title": "Bienvenido a TidyCMS! Crea su sitio:",
+		"new_user_btn": "Soy un usuario nuevo",
+		"login_with_account": "Ingresar con mi cuenta de TidyCMS"
+	},
+	"perms": {
+		"tab": "Permisos de archivos",
+		"title": "Definir permisos en su sitio",
+		"permissions": "Permisos",
+		"status": {
+			"current": "Estatus actual",
+			"writable": "editable",
+			"html": "Archivos HTML",
+			"dirs": "Carpetas",
+			"tidy": "Archivos de TidyCMS"
+		},
+		"fix_title": "Arreglar permisos",
+		"label": {
+			"method": "Metodo de conección",
+			"server": "Servidor",
+			"port": "Puerto",
+			"user": "Usuario"
+		},
+		"button": {
+			"setperms": "Editar permisos",
+			"checkperms": "Verificar permisos"
+		},
+		"cmd_title": "Linea de comando (avanzado)",
+		"step1": "Conectar a su sitio con la terminal (SSH)",
+		"step2": "Ir a la carpeta de instalación de tidycms",
+		"step3": "Realizar comando:"
+	},
+	"validate": {
+		"failed": "La validación falló, favor de contartar el administrador de su sitio",
+		"email_success": "¡El corrreo __email__ se validó con éxito!",
+		"already_validated": "El correo __email__ ya habia sido validado"
+	},
+	"goto": {
+		"site": "Ir a sus sitio",
+		"login": "Ingresar a su CMS"
+	}
+},
+
+"editor": {
+	"confirm_logout": "¿Está seguro que quiere salir?",
+	"label": {
+		"editable": "editar",
+		"imgup": "editar imagen"
+	},
+	"tool": {
+		"savechanges": "Guardar los cambios",
+		"newpage": {
+			"toolbarbtn": "Nueva pagina",
+			"title": "Crear una nueva pagina",
+			"label": {
+				"template": "Seleccionar la plantilla",
+				"pagetitle": "Titulo de la pagina",
+				"filename": "Nuevo nombre de archivo",
+				"addtomenu": "Añadir al menu",
+				"menuname": "Titulo del menu"
+			},
+			"createbtn": "Crear una nueva pagina",
+			"error": {
+				"tpl_notfound": "Plantilla no encontrada",
+				"no_tpls": "Este sitio no tiene plantilla y no puede crear nuevas paginas."
+			},
+			"page_created": "Nueva pagina __filename__ fue creada"
+		},
+		"newmenulink": {
+			"title": "Añadir un enlace",
+			"name": {
+				"label": "Nombre",
+				"placeholder": "Mi nueva pagina"
+			},
+			"page_label": "Seleccionar la pagina",
+			"href": {
+				"label": "Enlace",
+				"placeholder": "/camino/a/mi/pagina.html"
+			},
+			"target": {
+				"label": "Destino",
+				"sametab": "Misma tabla",
+				"newtab": "Nueva tabla (_blank)"
+			},
+			"createbtn": "Crear un nuevo enlace"
+		},
+		"pageinfo": {
+			"toolbarbtn": "Información de la pagina",
+			"tab": {
+				"pageinfo": "Información de la pagina",
+				"analytics": "Analyticos"
+			},
+			"label": {
+				"title": "Titulo",
+				"desc": "Descripción"
+			}
+		},
+		"pages": {
+			"label": "Paginas",
+			"title": "Paginas",
+			"unwritable_file": "No se puede editar el archivo. <a href=\"#\" class=\"fix unwritable\">Solucionarlo</a>",
+			"unwritable_dir": "No se puede editar la carpeta. <a href=\"#\" class=\"fix unwritable\">Solucionarlo</a>"
+		},
+		"source": {
+			"label": "Editor de codigo fuente",
+			"title": "Pagina del editor de codigo fuente",
+			"update": "Guardar codigo fuente",
+			"test": "Probar",
+			"run": "Cargar",
+			"update_success": "Pagina __name__ codigo fuente actualizado",
+			"error": {
+				"empty": "No se puede borrar todo. Elimine la pagina si quiere borrar todo."
+			}
+		},
+		"picker": {
+			"label": "Hacer editable",
+			"pageinpickermode": "Modo selector: Seleccionar los elementos para hacerlos editables.(javascripts deshabilitados)",
+			"wintitle": "Editar elementos de configuración",
+			"options": {
+				"title": "Elementos",
+				"element": "Este elemento",
+				"siblings": "Mismo tipo de elemento",
+				"sitewide": "Este elemento en todas las paginas del sitio"
+			},
+			"cls": {
+				"groupname": "Editar configuración",
+				"editable": "Hacer que este contenido sea editable",
+				"imgup": "Permitir subir imagenes",
+				"repeatable": "Permitir reordenar o modificar los elementos"
+			},
+			"attr": {
+				"groupname": "Ociones",
+				"sitewide": "Hacer que el contenido de este lemento sea el mismo en todas las paginas"
+			},
+			"changesdone_onefile": "El elemento de __file__ se cambió con éxito",
+			"changesdone_multiple": "Los elementos de __file__ se cambiarón con éxito"
+		},
+		"forms": {
+			"tab": "Formularios",
+			"handler": "Gestor de formularios",
+			"hid": "Id del gestor",
+			"new_handler": "¡Nuevo gestor de formulario creado!",
+			"hand_updated": "¡Gestor de formulario actualizado!",
+			"hand_removed": "Se eleminó el gestor de formulario con éxito",
+			"example": "Ejemplo de formulario",
+			"receiver_validated_true": "ok",
+			"receiver_validated_false": "esperando",
+			"methods": {
+				"label": "Metodo de envio de formulario",
+				"select": "Seleccionar metodo",
+				"email": "Enviar por email",
+				"post": "HTTP POST al servidor"
+			},
+			"email": {
+				"placeholder": "direccion@destinatario.com",
+				"subject": "Asunto del correo",
+				"subject_ph": "Contacto de"
+			},
+			"post": {
+				"placeholder": "su.servidor.com/camion/al/servicio"
+			},
+			"capcha": {
+				"enable": "Usar la prevención del spam",
+				"question_label": "texto de la pregunta CAPTCHA",
+				"questiontext1": "Ingresa los siguientes números (prevención del spam)"
+			},
+			"save": "Guardar",
+			"grid": {
+				"handler": "Gestor",
+				"creator": "Creado por",
+				"method": "Metodo",
+				"receiver": "destinatario",
+				"validated": "validado",
+				"edit": "Editar",
+				"create": "Crear un nuevo gestor de formulario",
+				"confirm_remove": "¿Esta seguro de querer eliminar este gestor?"
+			}
+		},
+		"emote": {
+			"title_happy": "¡Está feliz! Genial, nos gusta saber porque.",
+			"title_confused": "¿Esta un poco confuso? Favor de decirnos porque para que podamos arreglarlo",
+			"title_angry": "¡Esta enojado! Por favor, diganos que no funciona!",
+			"placeholder": "Escriba sus sentimientos aqui...",
+			"send": "Enviar comentarios",
+			"feedback_required": "Por favor, escriba algo. ¡Queremos leer sus comentarios!"
+		},
+		"preview": {
+			"desktop": "Modo escritorio",
+			"tablet": "Modo tableta",
+			"mobile": "Modo movil"
+		},
+		"menu": {
+			"placeholder": "Seleccionar menu",
+			"nomenu": "Ningún menu"	
+		},
+		"sourcecode": "Fuente de la pagina",
+		"siteconf": "Configuración",
+		"logout": "Salir",
+		"closebar": {
+			"title_open": "Mostrar las etiquetas de las herramientas",
+			"title_close": "Minimizar"
+		},
+		"edit_content": "Editar contenido",
+		"clone": "Clonar",
+		"add": "Añadir nuevo",
+		"remove": "Remover",
+		"move_up": "Mover arriba",
+		"move_down": "Mover abajo"
+	},
+	"confirm": {
+		"remove_block": "¿Esta seguro de querer eliminar este bloque?",
+		"logout": "¿Esta seguro de quere salir?"
+	},
+	"nothing_to_save": "Todo esta actualizado, no se cambió nada",
+	"changes_saved": "El archivo __file.name__ fue actualizado con éxito",
+	"link_click_disabled": "Todavia no es posible navegar desde el menu. Usar la herramienta de paginas para navegar."
+},
+
+"oldbrowser": {
+	"title": "No sabemos si TidyCMS (beta) funciona correctamente en su navegador",
+	"desc": "Hemos hecho pruebas y sabemos que TidyCMS funciona con las últimas versiones de los siguientes navegadores:",
+	"continue": "¡Se lo que estoy haciendo, continuar!"
+}
+
+
+}
