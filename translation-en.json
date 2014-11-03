@@ -20,7 +20,8 @@
 		"php_phar": "Error with PHP: Your PHP installation is missing Phar-module. Please contact your webserver admin to fix this.",
 		"php_dom": "Error with PHP: Your PHP installation is missing Dom-module. Please contact your webserver admin to fix this.",
 		"php_json": "Error with PHP: Your PHP installation is missing JSON-module. Please contact your webserver admin to fix this.",
-		"php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#h-installation\">Read more</a>",
+		"php_suhosin_phar": "Error with PHP: Your PHP installation includes the Suhosin protection system which prevents the use of Phar-packages. Php.ini configuration must whitelist the phar module. Contact your webhost and <a href=\"http://tidycms.com/docs/#suhosin\">read more</a>",
+		"php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#installation\">Read more</a>",
 		"win_not_supported": "TidyCMS does not support Windows-environment (yet). Please run this CMS in Linux webhost."
 	},
 	"user": {
