@@ -1,0 +1,410 @@
+{
+
+"ui": {
+	"back": "zurück",
+	"email": "E-Mail",
+	"password": "Passwort",
+	"cancel": "zurücksetzen",
+	"file": "Datei",
+	"directory": "Pfad",
+	"new": "Neu",
+	"save_changes": "Änderungen speichern"
+},
+
+"error": {
+	"missing_required_data": "Relevante Informationen fehlen",
+	"connection": "Fehler von TidyCMS PHP. Bitte laden Sie tidycms.zip von folgender Adresse runter und installieren es erneut: <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+	"testing": "Test",
+	"env": {
+		"php_ver_less_53": "PHP-Fehler: Ihre PHP-Version ist veraltet. Sie benötigen mindestens PHP 5.3, optimal wäre PHP 5.5 <a href=\"http://tidycms.com/docs/#h-installation\">Lesen Sie mehr</a>",
+		"php_phar": "PHP-Fehler: Ihrer PHP Installation fehlt das Phar-Modul. Bitte kontaktieren Sie Ihren Hosting-Partner, um dieses einzurichten.",
+		"php_dom": "PHP-Fehler: Ihrer PHP Installation fehlt das Dom-Modul. Bitte kontaktieren Sie Ihren Hosting-Partner, um dieses einzurichten.",
+		"php_json": "PHP-Fehler: Ihrer PHP Installation fehlt das JSON-Modul. Bitte kontaktieren Sie Ihren Hosting-Partner, um dieses einzurichten.",
+		"php_connection": "Keine Verbindung zum PHP-Script. Bitte prüfen Sie Ihre PHP-Version auf dem Server. <a href=\"http://tidycms.com/docs/#h-installation\">Lesen Sie mehr</a>",
+		"win_not_supported": "TidyCMS unterstützt keine Windows-Umgebung (noch nicht). Verwenden Sie dazu einen Linux-Webserver."
+	},
+	"user": {
+		"email_invalid": "Ihre E-Mail-Adresse ist falsch",
+		"weak_password": "Ihre Passwort ist zu schwach, versuchen Sie es mit anderen Zeichen.",
+		"password_mismatch": "Passwort stimmt nicht überein",
+		"alreadyexists": "Ein Zugang mit dieser E-Mal existiert bereits! Versuchen Sie sich einzuloggen statt einen neuen Zugang anzulegen.",
+		"accountnotfound": "Dieser Zugang  existiert nicht. Kontaktieren Sie den Seiten-Administrator, um einen Account für Sie zu erstellen.",
+		"wrongpassword": "Falsches Passwort, versuchen Sie es erneut oder setzen Sie durch Drücken \"Passwort vergessen\" das Passwort zurück.",
+		"no_invite": "Ihr Einladungslink ist nicht gültig für diese Seite. Bitte kontaktieren Sie den Seiten-Administrator, um Sie nochmal einzuladen.",
+		"confirm_fail": "Bestätigung nicht erfolgreich. Probieren Sie es nochmal"
+	},
+	"authentication": {
+		"api": "Anmeldung fehlgeschlagen, loggen Sie sich erneut ein.",
+		"client": "Anmeldung fehlgeschlagen, loggen Sie sich erneut ein."
+	},
+	"timediff_60s_more": "Ihre Server-Uhr hat mehr als 60 Sekunden Differenz zur Universalzeit. Bitte kontaktieren Sie Ihren Hoster.",
+	"timediff_60m_more": "Ihre Server-Uhr hat mehr als 1 Stunde Differenz zur Universalzeit. Bitte kontaktieren Sie Ihren Hoster.",
+	"technical": "Technischer Fehler, bitte kontaktieren Sie den Support.",
+	"file": {
+		"not_exists": "Datei gibt es nicht.",
+		"not_writable": "Datei kann nicht beschrieben werden und auch nicht verändert werden",
+		"upload": "UPS! Upload fehlgeschlagen.",
+		"upload_permission": "Upload fehlgeschlagen. Prüfen Sie die Rechte.",
+		"create_failed": "Datei kann nicht erstell werden. Prüfen Sie die Rechte.",
+		"filename_slashend": "Fehler: Entfernen Sie den Slash (/) vom Dateinamen.",
+		"filename_htmlend": "Fehler: Entfernen Sie .html vom Dateinamen.",
+		"unable_to_remove": "Fehler: Konnte Datei nicht entfernen",
+		"no_html_files_found": "Fehler: Keine .html-Dateien gefunden. Sie benötigen mindestens 1 html-Datei, um mit Tidy arbeiten zu können."
+	},
+	"update": {
+		"failed": "Fehler beim Updaten von TidyCMS. Bitte laden Sie tidycms.zip nochmal runter und installieren es erneut von <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+	},
+	"element_not_found": "Dieses Element konnte nicht gefunden werden."
+},
+
+"user": {
+	"login": {
+		"title": "Loggen Sie sich mit Ihren Zugangsdaten ein.",
+		"forgot_password": "Passwort vergessen",
+		"send_new_pw": "Neues Passwort senden",
+		"confirm_new_pw": "Bitte neues Passwort bestätigen, indem Sie folgende Nummern tippen:",
+		"new_password_sent": "Wir haben ein neues Passwort an Ihre Mail-Adresse gesendet",
+		"label": {
+			"email": "Mail-Adresse",
+			"password": "Passwort"
+		}
+	},
+	"account": {
+		"create_title": "Erstellen Sie einen Account.",
+		"login_title": "Loggen Sie sich mit Ihrem TidyCMS Account ein.",
+		"label": {
+			"name": "Name",
+			"first": "Vorname",
+			"last": "Nachname",
+			"email": "Ihre Mail-Adresse",
+			"new_password": "Passwort ändern",
+			"confirm": "Passwort bestätigen",
+			"date_added": "hinzugefügt",
+			"language": "Sprache"
+		},
+		"tab": {
+			"account": "Ihr Account",
+			"siteusers": "Benutzer"
+		},
+		"button": {
+			"create": "Account erstellen",
+			"login": "Login",
+			"update": "Account updaten"
+		},
+		"updated": "Ihre Account wurde erfolgreich upgedated",
+		"lang_changed": "Ihre Sprache hat gewechselt. Neue Sprache laden?"
+	},
+	"invite": {
+		"label": "Benutzer einladen",
+		"placeholder": "firstemail@adr.com, secondadr@somebox.com...",
+		"button": "einladen",
+		"already_invited": "__email__ wurde schon eingeladen auf dieser Seite",
+		"invite_yourself": "Sie können sich nicht selbst einladen",
+		"mail_already_added": "Diese Mail-Adresse ist schon in der Liste",
+		"success": "__invitecount__ neue Benutzer wurden eingeladen.",
+		"remove": "Sind Sie sicher, dass die diesen neuen Nutzer löschen möchten?",
+		"user_removed": "__adr__ wurde von der Seite entfernt."
+	},
+	"status": {
+		"invited": "eingeladen"
+	},
+	"role": "Rolle",
+	"role_designer": "Designer",
+	"role_user": "Benutzer"
+},
+
+"site": {
+	"notfound": "Seite wurde nicht gefunden mit dieser Adresse.",
+	"start": {
+		"title": "Hallo und willkomen zu TidyCMS! Jetzt Account erstellen:",
+		"new_user_btn": "Ich bin ein neuer Benutzer",
+		"login_with_account": "Mit TidyCMS Account einloggen"
+	},
+	"perms": {
+		"tab": "Dateirechte",
+		"title": "Richten Sie Ihre Rechte ein",
+		"permissions": "Rechte",
+		"status": {
+			"current": "Aktueller Status",
+			"writable": "beschreibbar",
+			"html": "HTML Dateien",
+			"dirs": "Pfade",
+			"tidy": "TidyCMS Dateien"
+		},
+		"fix_title": "Rechte anpassen",
+		"label": {
+			"method": "Verbindungsmethode",
+			"server": "Server",
+			"port": "Port",
+			"user": "Benutzername"
+		},
+		"button": {
+			"setperms": "Rechte setzen",
+			"checkperms": "Rechte prüfen"
+		},
+		"cmd_title": "Eingabefeld (erweitert)",
+		"step1": "Verbinden Sie Ihre Seite mit SSH",
+		"step2": "Gehen Sie zu Ihren TidyCMS Ordner",
+		"step3": "Eingabe starten:"
+	},
+	"validate": {
+		"failed": "Prüfung fehlgeschlagen, bitte kontaktieren Sie Ihren Admin.",
+		"email_success": "Address __email__ wurde erfolgreich angelegt!",
+		"already_validated": "Address __email__ ist schon angelegt."
+	},
+	"goto": {
+		"site": "Zur Seite gehen",
+		"login": "Ins CMS einloggen"
+	}
+},
+
+"editor": {
+	"loading_cms": "TidyCMS Dateien laden ... bitte warten Sie einen Moment",
+	"confirm_logout": "Sind Sie sicher, dass Sie sich ausloggen wollen?",
+	"label": {
+		"editable": "editieren",
+		"move": "verschieben",
+		"editmove": "editieren & verschieben",
+		"imgup": "Bild editieren"
+	},
+	"tool": {
+		"savechanges": "Änderungen speichern",
+		"newpage": {
+			"toolbarbtn": "Neue Seite",
+			"title": "Neue Seite anlegen",
+			"label": {
+				"template": "Template auswählen",
+				"pagetitle": "Seitentitel",
+				"filename": "Neuer Dateiname",
+				"addtomenu": "Zum Menü hinzufügen",
+				"menuname": "Menütitel"
+			},
+			"createbtn": "Neue Seite anlegen",
+			"error": {
+				"tpl_notfound": "Template nicht gefunden",
+				"no_tpls": "Diese Seite hat keine Templates und Sie können keine neuen Seiten anlegen."
+			},
+			"page_created": "Neue Seite __filename__ angelegt"
+		},
+		"newmenulink": {
+			"title": "Neuen Link hinzufügen",
+			"name": {
+				"label": "Name",
+				"placeholder": "Meine neue Seite"
+			},
+			"page_label": "Seite auswählen",
+			"href": {
+				"label": "Link",
+				"placeholder": "/pfad/zu/meiner/seite.html"
+			},
+			"target": {
+				"label": "Ziel",
+				"sametab": "Gleicher Tab",
+				"newtab": "Neuer Tab (_blank)"
+			},
+			"createbtn": "Link anlegen"
+		},
+		"pageinfo": {
+			"toolbarbtn": "Seiteninfo",
+			"tab": {
+				"pageinfo": "Seiteninfo",
+				"analytics": "Analytics"
+			},
+			"label": {
+				"title": "Titel",
+				"desc": "Beschreibung"
+			},
+			"removebtn": "Seite entfernen",
+			"remove_confirm": "Sind Sie sicher, dass Sie die Seite löschen möchten? Wenn ja, dann tippen Sie die folgenden Nummern ein und bestätigen:",
+			"remove_success": "Seite __name__ removed erfolgreich entfernt!"
+		},
+		"pages": {
+			"label": "Seiten",
+			"title": "Seiten",
+			"unwritable_file": "Diese Datei ist nicht beschreibbar. <a href=\"#\" class=\"fix unwritable\">Jetzt beheben</a>",
+			"unwritable_dir": "Dieser Pfad ist nicht beschreibbar. <a href=\"#\" class=\"fix unwritable\">Jetzt beheben</a>"
+		},
+		"source": {
+			"label": "Quelltext Editor",
+			"title": "Seiten-Editor",
+			"update": "Quelltext sichern",
+			"test": "testen",
+			"run": "starten",
+			"update_success": "Seite __name__ wurde erfolreich angepasst.",
+			"confirm_close": "Sind Sie sicher, dass Sie die Seite verlassen wollen ohne den Quelltext zu speichern? Ihre Änderungen gehen dann verloren.",
+			"confirm_open": "Sind Sie sicher, dass Sie die Seite öffnen wollen ohne Änderungen zu speichern? Ihre Änderungen gehen dann verloren.",
+			"error": {
+				"empty": "Es wurde nicht alles entfernt. Löschen Sie Sie Seite, wenn Sie alles löschen wollen."
+			}
+		},
+		"undo": {
+			"label": "zurücksetzen",
+			"title": "Änderungen zurücksetzen",
+			"revert": "Ausgewählte Version wiederherstellen",
+			"guide": "Die alte Version wirde komplett eingespielt und überschreibt die aktuelle. Die aktuelle wird aber als Backup gespeichert",
+			"confirm": "Sind Sie sicher, dass Sie die aktuelle öffentliche Seite mit einer alten Version überschreiben wollen? Wenn ja, tippen Sie die folgenden Nummern ein:",
+			"title_left": "Backup Zeit",
+			"title_right": "Vor der Durchführung",
+			"premium_notification": "Dieses \"Zurücksetzen\"-Werkzeug ist eine Premium-Funktion und ist aktuell noch kostenfrei (später nicht mehr)",
+			"type": {
+				"current": "Aktuelle Seite",
+				"revert": "Alter Version wiederherstellen",
+				"picker": "Editierbare Inhalte geändert",
+				"content": "Inhalt ändern",
+				"sitewide": "Seitenweites Update",
+				"source": "Quelltext ändern",
+				"prepare": "CMS Zusatzfunktionen",
+				"console": "jQuery Konsole"
+			}
+		},
+		"picker": {
+			"label": "Editierbar machen",
+			"pageinpickermode": "Auswahltool: Wählen Sie Elemente aus, um diese editierbar zu machen (Javascripts inaktiv)",
+			"wintitle": "Element Einstellungen anpassen",
+			"options": {
+				"title": "Element",
+				"element": "Dieses element",
+				"siblings": "Kopie von diesem Element",
+				"sitewide": "Dieses Element auf allen Seiten"
+			},
+			"cls": {
+				"groupname": "Anpasssungen",
+				"editable": "Mach diesen Inhalt anpassbar",
+				"imgup": "Erlauben und Bild hochladen",
+				"repeatable": "Anordnung und Änderungen von abhängigen Elementen zulassen"
+			},
+			"attr": {
+				"groupname": "Optionen",
+				"sitewide": "Dieses Element auf allen Seiten mit dem gleichen Inhalt befüllen."
+			},
+			"changesdone_onefile": "Element wurde erfolgreich in __file__ geändert",
+			"changesdone_multiple": "Element wurde erfolgreich __file__ files geändert"
+		},
+		"importer": {
+			"label": "Seiten importieren",
+			"title": "Seiten vom Web importieren",
+			"button": {
+				"test": "Test",
+				"start": "Start",
+				"stop": "Stop"
+			}
+		},
+		"copypaste": {
+			"title": "Inhalt vom Web importieren",
+			"guide": "Url von Seite schreiben"
+		},
+		"styles": {
+			"label": "Stil Editor",
+			"title": "Farben & Stile",
+			"confirm_close": "Sie haben nicht gespeicherte Änderungen, sind Sie sicher Sie wollen schliessen und abbrechen?",
+			"updated": "Stile erfolgreich geändert",
+			"not_updated": "Keine Stile geändert. Syntax Probleme mit less-Dateien vielleicht?"
+		},
+		"forms": {
+			"tab": "Formulare",
+			"handler": "Formular-Plugin",
+			"hid": "Plugin id",
+			"new_handler": "Neues Formular-Plugin erstellt!",
+			"hand_updated": "Formular-Plugin erneuert!",
+			"hand_removed": "Formular-Plugin erfolgreich entfernt",
+			"example": "Formular-Plugin Beispiel",
+			"receiver_validated_true": "OK",
+			"receiver_validated_false": "warten ...",
+			"methods": {
+				"label": "Eingabemethode",
+				"select": "Wählen Sie Methode",
+				"email": "Per Mail gesendet",
+				"post": "HTTP POST to server"
+			},
+			"email": {
+				"placeholder": "empfänger@adresse.com",
+				"subject": "Betreff",
+				"subject_ph": "Kontakt von"
+			},
+			"post": {
+				"placeholder": "dein.server.com/pfad/zu/service"
+			},
+			"capcha": {
+				"enable": "Spamschutz aktiviert",
+				"question_label": "CAPTCHA Frage",
+				"questiontext1": "Tippen Sie folgende Nummern ein (Spamschutz)"
+			},
+			"save": "speichern",
+			"grid": {
+				"handler": "Plugin",
+				"creator": "Erstellt von",
+				"method": "Methode",
+				"receiver": "Empfänger",
+				"validated": "bestätigt",
+				"edit": "editieren",
+				"create": "Neues Form-Plugin erstellen",
+				"confirm_remove": "Sind Sie sicher Sie wollen das Plugin entfernen?"
+			}
+		},
+		"emote": {
+			"title_happy": "Sie sind total glücklich! SUPER. Dann erzählen Sie uns warum.",
+			"title_confused": "Etwas verwirrt? Dann geben Sie uns Bescheid und wir fixen das.",
+			"title_angry": "Etwas verärgert? Dann geben Sie uns Bescheid was schief läuft!",
+			"placeholder": "Schreiben Sie Ihren Eindruck hier ...",
+			"send": "Feedback senden",
+			"feedback_required": "Bitte schreiben Sie etwas. Wir möchten Ihr Feedback haben!",
+			"received": "Feedback gesendet! Ihr Feedback macht aus TidyCMS ein (hoffentlich) besseres CMS."
+		},
+		"preview": {
+			"desktop": "Desktop Modus",
+			"tablet": "Tablet Modus",
+			"mobile": "Mobile Modus"
+		},
+		"menu": {
+			"placeholder": "Menü auswählen",
+			"nomenu": "Kein Menü"	
+		},
+		"sourcecode": "Seitentext",
+		"siteconf": "Einstellungen",
+		"logout": "Ausloggen",
+		"closebar": {
+			"title_open": "Tool Labels zeigen",
+			"title_close": "minimieren"
+		},
+		"edit_content": "Inhalt editieren",
+		"import_content": "Inhalt importieren",
+		"clone": "kopieren",
+		"add": "Neuen Inhalt hinzufügen",
+		"remove": "entfernen",
+		"move_up": "hochschieben",
+		"move_down": "runterschieben"
+	},
+	"confirm": {
+		"remove_block": "Sind Sie sicher Sie wollen den Block entfernen?",
+		"logout": "Sie wollen sich sicher ausloggen?"
+	},
+	"confirm_unsaved_page": "Sind Sie sicher, dass Sie sich von einer ungesicherten Seite wegklicken wollen? Änderungen gehen dann verloren",
+	"nothing_to_save": "Alles ist aktuell, nichts wurde gespeichert.",
+	"changes_saved": "Datei __file.name__ wurde erfolreich erneuert.",
+	"link_click_disabled": "Naviation der Seite ist noch nicht möglich. Nutzen Sie die Seitennavigation."
+},
+
+"oldbrowser": {
+	"title": "Wir wissen nicht, ob TidyCMS in Ihrem Browser funktioniert.",
+	"desc": "Wir haben TidyCMS getestet und wissen, dass folgende Versionen von Browsern funktionieren:",
+	"continue": "Ich weiss was ich tue! Bitte weiter!"
+},
+
+"localhost": {
+	"mode": "Localhost Modus",
+	"toptitle": "Localhost URL existiert schon.",
+	"siteinfo": "Eine Seite mit {{siteurl}} URL <br/> wurde schon erstellt {{created}} von {{creator}}.",
+	"logtitle": "Wenn das Ihre Seite ist, loggen Sie sich mit Ihren Zugangsdaten ein",
+	"guide": {
+		"otherwise": "Wenn nicht, dann erstellen Sie eine neue Seite auf Ihrem Server",
+		"create": "Erstellen Sie eine individuelle Seite auf Ihrem Server",
+		"description": "Wenn Sie die Seite nicht erstellt haben, entfernen Sie diese und erstellen eine neue, z.B.:",
+		"freeurl": "{{freeadr}} (verfügbar)"
+	}
+},
+
+"demo": {
+	"welcome": "Willkommen zur TidyCMS Demo. Diese Seite wird nach einem Tag gelöscht."	
+}
+
+}
