@@ -13,11 +13,11 @@
 
 "error": {
 	"missing_required_data": "Falta información requerida",
-	"connection": "Error con el servidor PHP. Favor de verificar su instalación de PHP (<a href=\"http://tidycms.com/docs/#php-setup\" target=\"_blank\">mas información</a>)",
+	"connection": "Error con el servidor PHP. Por Favor de verificar su instalación de PHP (<a href=\"http://tidycms.com/docs/#php-setup\" target=\"_blank\">mas información</a>)",
 	"user": {
 		"email_invalid": "Algo no funcionó con el email.",
 		"weak_password": "Su contraseña no es segura, use mas caracteres.",
-		"password_mismatch": "Las contraseñas no son iguales.",
+		"password_mismatch": "Las contraseñas no coinciden.",
 		"alreadyexists": "¡Ya existe una cuenta asociada a este email! Intente ingresar en lugar de crear una cuenta nueva.",
 		"accountnotfound": "Esta cuenta no existe. Favor de contactar al administrador para crear una cuenta para usted.",
 		"wrongpassword": "La contraseña no es correcta, intente de nuevo o cambie su contraseña usando el \"Forgot password\" enlace.",
@@ -41,7 +41,7 @@
 		"filename_htmlend": "Error: Quitar html al final del nombre del archvivo"
 	},
 	"update": {
-		"failed": "Error al actualizar TidyCMS. Favor de descargar y reinstalar tidycms.zip desde <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+		"failed": "Error al actualizar TidyCMS. Por favor descargue y reinstale tidycms.zip desde <a href=\"http://tidycms.com\">http://tidycms.com</a>"
 	},
 	"element_not_found": "No se encontrarón los elementos necesarios"
 },
@@ -89,7 +89,7 @@
 		"invite_yourself": "No se puede invitar a si mismo",
 		"mail_already_added": "La cuenta de correo ya está en la lista",
 		"success": "__invitecount__ usuarios nuevos invitados al sitio",
-		"remove": "¿Esta seguro de quitar este usuario de su sitio?",
+		"remove": "¿Está seguro de quitar este usuario de su sitio?",
 		"user_removed": "__adr__ fue removido de su sitio"
 	},
 	"status": {
@@ -135,7 +135,7 @@
 		"step3": "Realizar comando:"
 	},
 	"validate": {
-		"failed": "La validación falló, favor de contartar el administrador de su sitio",
+		"failed": "La validación falló, favor de contactar con el administrador de su sitio",
 		"email_success": "¡El corrreo __email__ se validó con éxito!",
 		"already_validated": "El correo __email__ ya habia sido validado"
 	},
@@ -158,25 +158,25 @@
 			"title": "Crear una nueva pagina",
 			"label": {
 				"template": "Seleccionar la plantilla",
-				"pagetitle": "Titulo de la pagina",
+				"pagetitle": "Titulo de la página",
 				"filename": "Nuevo nombre de archivo",
 				"addtomenu": "Añadir al menu",
-				"menuname": "Titulo del menu"
+				"menuname": "Título del menu"
 			},
-			"createbtn": "Crear una nueva pagina",
+			"createbtn": "Crear una nueva página",
 			"error": {
 				"tpl_notfound": "Plantilla no encontrada",
-				"no_tpls": "Este sitio no tiene plantilla y no puede crear nuevas paginas."
+				"no_tpls": "Este sitio no tiene plantilla y no puede crear nuevas páginas."
 			},
-			"page_created": "Nueva pagina __filename__ fue creada"
+			"page_created": "Nueva página __filename__ fue creada"
 		},
 		"newmenulink": {
 			"title": "Añadir un enlace",
 			"name": {
 				"label": "Nombre",
-				"placeholder": "Mi nueva pagina"
+				"placeholder": "Mi nueva página"
 			},
-			"page_label": "Seleccionar la pagina",
+			"page_label": "Seleccionar la página",
 			"href": {
 				"label": "Enlace",
 				"placeholder": "/camino/a/mi/pagina.html"
@@ -189,31 +189,31 @@
 			"createbtn": "Crear un nuevo enlace"
 		},
 		"pageinfo": {
-			"toolbarbtn": "Información de la pagina",
+			"toolbarbtn": "Información de la página",
 			"tab": {
-				"pageinfo": "Información de la pagina",
-				"analytics": "Analyticos"
+				"pageinfo": "Información de la página",
+				"analytics": "Analytics"
 			},
 			"label": {
-				"title": "Titulo",
+				"title": "Título",
 				"desc": "Descripción"
 			}
 		},
 		"pages": {
-			"label": "Paginas",
-			"title": "Paginas",
+			"label": "Páginas",
+			"title": "Páginas",
 			"unwritable_file": "No se puede editar el archivo. <a href=\"#\" class=\"fix unwritable\">Solucionarlo</a>",
 			"unwritable_dir": "No se puede editar la carpeta. <a href=\"#\" class=\"fix unwritable\">Solucionarlo</a>"
 		},
 		"source": {
-			"label": "Editor de codigo fuente",
-			"title": "Pagina del editor de codigo fuente",
-			"update": "Guardar codigo fuente",
+			"label": "Editor de código fuente",
+			"title": "Pagina del editor de código fuente",
+			"update": "Guardar código fuente",
 			"test": "Probar",
 			"run": "Cargar",
-			"update_success": "Pagina __name__ codigo fuente actualizado",
+			"update_success": "Página __name__ codigo fuente actualizado",
 			"error": {
-				"empty": "No se puede borrar todo. Elimine la pagina si quiere borrar todo."
+				"empty": "No se puede borrar todo. Elimine la página si quiere borrar todo."
 			}
 		},
 		"picker": {
@@ -229,15 +229,15 @@
 			"cls": {
 				"groupname": "Editar configuración",
 				"editable": "Hacer que este contenido sea editable",
-				"imgup": "Permitir subir imagenes",
+				"imgup": "Permitir subir imágenes",
 				"repeatable": "Permitir reordenar o modificar los elementos"
 			},
 			"attr": {
-				"groupname": "Ociones",
-				"sitewide": "Hacer que el contenido de este lemento sea el mismo en todas las paginas"
+				"groupname": "Opciones",
+				"sitewide": "Hacer que el contenido de este lemento sea el mismo en todas las páginas"
 			},
 			"changesdone_onefile": "El elemento de __file__ se cambió con éxito",
-			"changesdone_multiple": "Los elementos de __file__ se cambiarón con éxito"
+			"changesdone_multiple": "Los elementos de __file__ se cambiaron con éxito"
 		},
 		"forms": {
 			"tab": "Formularios",
@@ -250,8 +250,8 @@
 			"receiver_validated_true": "ok",
 			"receiver_validated_false": "esperando",
 			"methods": {
-				"label": "Metodo de envio de formulario",
-				"select": "Seleccionar metodo",
+				"label": "Método de envio de formulario",
+				"select": "Seleccionar método",
 				"email": "Enviar por email",
 				"post": "HTTP POST al servidor"
 			},
@@ -277,14 +277,14 @@
 				"validated": "validado",
 				"edit": "Editar",
 				"create": "Crear un nuevo gestor de formulario",
-				"confirm_remove": "¿Esta seguro de querer eliminar este gestor?"
+				"confirm_remove": "¿Está seguro de querer eliminar este gestor?"
 			}
 		},
 		"emote": {
 			"title_happy": "¡Está feliz! Genial, nos gusta saber porque.",
-			"title_confused": "¿Esta un poco confuso? Favor de decirnos porque para que podamos arreglarlo",
-			"title_angry": "¡Esta enojado! Por favor, diganos que no funciona!",
-			"placeholder": "Escriba sus sentimientos aqui...",
+			"title_confused": "¿Está un poco confuso? Favor de decirnos porque para que podamos ayudarle",
+			"title_angry": "¡Está enfadado! Por favor, diganos que no funciona!",
+			"placeholder": "Escriba sus comentarios aqui...",
 			"send": "Enviar comentarios",
 			"feedback_required": "Por favor, escriba algo. ¡Queremos leer sus comentarios!"
 		},
@@ -297,7 +297,7 @@
 			"placeholder": "Seleccionar menu",
 			"nomenu": "Ningún menu"	
 		},
-		"sourcecode": "Fuente de la pagina",
+		"sourcecode": "Fuente de la página",
 		"siteconf": "Configuración",
 		"logout": "Salir",
 		"closebar": {
@@ -307,17 +307,17 @@
 		"edit_content": "Editar contenido",
 		"clone": "Clonar",
 		"add": "Añadir nuevo",
-		"remove": "Remover",
+		"remove": "Eliminar",
 		"move_up": "Mover arriba",
 		"move_down": "Mover abajo"
 	},
 	"confirm": {
-		"remove_block": "¿Esta seguro de querer eliminar este bloque?",
-		"logout": "¿Esta seguro de quere salir?"
+		"remove_block": "¿Está seguro de querer eliminar este bloque?",
+		"logout": "¿Está seguro de quere salir?"
 	},
-	"nothing_to_save": "Todo esta actualizado, no se cambió nada",
+	"nothing_to_save": "Todo está actualizado, no se cambió nada",
 	"changes_saved": "El archivo __file.name__ fue actualizado con éxito",
-	"link_click_disabled": "Todavia no es posible navegar desde el menu. Usar la herramienta de paginas para navegar."
+	"link_click_disabled": "Todavia no es posible navegar desde el menu. Usar la herramienta de páginas para navegar."
 },
 
 "oldbrowser": {
