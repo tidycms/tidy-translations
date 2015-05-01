@@ -1,411 +1,402 @@
 {
-
-"ui": {
-	"back": "Back",
-	"email": "Email",
-	"password": "Password",
-	"cancel": "Cancel",
-	"file": "File",
-	"directory": "Directory",
-	"new": "New",
-	"save_changes": "Save changes"
-},
-
-"error": {
-	"missing_required_data": "Missing required info",
-	"connection": "Error with TidyCMS PHP. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>",
-	"testing": "test",
-	"env": {
-		"php_ver_less_53": "Error with PHP: Your PHP version is too old. Minimum required PHP version is 5.3 and recommended is 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Read more</a>",
-		"php_phar": "Error with PHP: Your PHP installation is missing Phar-module. Please contact your webserver admin to fix this.",
-		"php_dom": "Error with PHP: Your PHP installation is missing Dom-module. Please contact your webserver admin to fix this.",
-		"php_json": "Error with PHP: Your PHP installation is missing JSON-module. Please contact your webserver admin to fix this.",
-		"php_suhosin_phar": "Error with PHP: Your PHP installation includes the Suhosin protection system which prevents the use of Phar-packages. Php.ini configuration must whitelist the phar module. Contact your webhost and <a href=\"http://tidycms.com/docs/#suhosin\">read more</a>",
-		"php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#installation\">Read more</a>",
-		"win_not_supported": "TidyCMS does not support Windows-environment (yet). Please run this CMS in Linux webhost."
-	},
-	"user": {
-		"email_invalid": "Something wrong in the email address.",
-		"weak_password": "Your password is too weak, use different characters.",
-		"password_mismatch": "Passwords do not match.",
-		"alreadyexists": "A account with this email already exists! Try login instead of creating a new account.",
-		"accountnotfound": "This account does not exist. Please contact site administrator to create an account for you.",
-		"wrongpassword": "Wrong password, try again or reset your password by clicking \"Forgot password\" link.",
-		"no_invite": "Your invite key is not valid for this site. Please contact the site admin to invite you again.",
-		"confirm_fail": "Confirm failed. Please try again"
-	},
-	"authentication": {
-		"api": "Authentication failed, please login again",
-		"client": "Authentication failed, please login again"
-	},
-	"timediff_60s_more": "Your server clock differs more than 60s from universal time. Please contact your hosting admin.",
-	"timediff_60m_more": "Your server clock differs more than 1 hour from universal time. Please contact your hosting admin.",
-	"technical": "Technical error, please contact support.",
-	"file": {
-		"not_exists": "File does not exist",
-		"not_writable": "File is not writable and can not be edited",
-		"upload": "Upload failed",
-		"upload_permission": "Upload failed. Check permissions",
-		"create_failed": "Unable to create file. Check permissions",
-		"filename_slashend": "Error: Remove slash from end of filename",
-		"filename_htmlend": "Error: Remove .html from end of filename",
-		"unable_to_remove": "Error: Could not remove file.",
-		"no_html_files_found": "Error: No .html files found. Tidy requires at least HTML-file to work with."
-	},
-	"update": {
-		"failed": "Error in updating TidyCMS. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>"
-	},
-	"element_not_found": "Element not found with this query"
-},
-
-"user": {
-	"login": {
-		"title": "Login with your account",
-		"forgot_password": "Forgot password",
-		"send_new_pw": "Send new password",
-		"confirm_new_pw": "Confirm you want a new password by typing the next numbers:",
-		"new_password_sent": "We have sent a new password to your email address",
-		"label": {
-			"email": "Email",
-			"password": "Password"
-		}
-	},
-	"account": {
-		"create_title": "Create your account",
-		"login_title": "Login with your TidyCMS account",
-		"label": {
-			"name": "Name",
-			"first": "Firstname",
-			"last": "Lastname",
-			"email": "Your email address",
-			"new_password": "Change password",
-			"confirm": "Confirm password",
-			"date_added": "Added",
-			"language": "Language"
-		},
-		"tab": {
-			"account": "Your account",
-			"siteusers": "Site users"
-		},
-		"button": {
-			"create": "Create account",
-			"login": "Login",
-			"update": "Update account"
-		},
-		"updated": "Your account updated successfully",
-		"lang_changed": "Your language has changed. Load new language?"
-	},
-	"invite": {
-		"label": "Invite users",
-		"placeholder": "firstemail@adr.com, secondadr@somebox.com...",
-		"button": "Invite",
-		"already_invited": "__email__ already invited to this site",
-		"invite_yourself": "You can not invite yourself",
-		"mail_already_added": "This mail address is already in the list",
-		"success": "__invitecount__ new users invited to this site",
-		"remove": "Are you sure you want to remove this user from your site?",
-		"user_removed": "__adr__ removed from this site"
-	},
-	"status": {
-		"invited": "Invited"
-	},
-	"role": "Role",
-	"role_designer": "Designer",
-	"role_user": "User"
-},
-
-"site": {
-	"notfound": "Site not found with this adress.",
-	"start": {
-		"title": "Welcome to TidyCMS! Setup your site:",
-		"new_user_btn": "I am a new user",
-		"login_with_account": "Login with my TidyCMS account"
-	},
-	"perms": {
-		"tab": "File permissions",
-		"title": "Setup your site permissions",
-		"permissions": "Permissions",
-		"status": {
-			"current": "Current status",
-			"writable": "Writable",
-			"html": "HTML files",
-			"dirs": "Directories",
-			"tidy": "TidyCMS files"
-		},
-		"fix_title": "Fix permissions",
-		"label": {
-			"method": "Connection method",
-			"server": "Server",
-			"port": "Port",
-			"user": "Username"
-		},
-		"button": {
-			"setperms": "Set permissions",
-			"checkperms": "Check permissions"
-		},
-		"cmd_title": "Command line (advanced)",
-		"step1": "Connect to your site with terminal (SSH)",
-		"step2": "Go to your tidycms installation folder",
-		"step3": "Run command:"
-	},
-	"validate": {
-		"failed": "Validation failed, please contact your site admin",
-		"email_success": "Address __email__ validated successfully!",
-		"already_validated": "Address __email__ already validated"
-	},
-	"goto": {
-		"site": "Go to your site",
-		"login": "Login to your CMS"
-	}
-},
-
-"editor": {
-	"loading_cms": "Loading TidyCMS resources... please wait a while",
-	"confirm_logout": "Are you sure you want to log out?",
-	"label": {
-		"editable": "edit",
-		"move": "move",
-		"editmove": "edit & move",
-		"imgup": "edit image"
-	},
-	"tool": {
-		"savechanges": "Save changes",
-		"newpage": {
-			"toolbarbtn": "New page",
-			"title": "Create new page",
-			"label": {
-				"template": "Select template",
-				"pagetitle": "Page title",
-				"filename": "New filename",
-				"addtomenu": "Add to menu",
-				"menuname": "Menu title"
-			},
-			"createbtn": "Create new page",
-			"error": {
-				"tpl_notfound": "Template not found",
-				"no_tpls": "This has site no templates and you can not create new pages."
-			},
-			"page_created": "New page __filename__ created"
-		},
-		"newmenulink": {
-			"title": "Add new link",
-			"name": {
-				"label": "Name",
-				"placeholder": "My new page"
-			},
-			"page_label": "Select page",
-			"href": {
-				"label": "Link",
-				"placeholder": "/path/to/my/page.html"
-			},
-			"target": {
-				"label": "Target",
-				"sametab": "Same tab",
-				"newtab": "New tab (_blank)"
-			},
-			"createbtn": "Create new link"
-		},
-		"pageinfo": {
-			"toolbarbtn": "Page info",
-			"tab": {
-				"pageinfo": "Page info",
-				"analytics": "Analytics"
-			},
-			"label": {
-				"title": "Title",
-				"desc": "Description"
-			},
-			"removebtn": "Remove page",
-			"remove_confirm": "Are you sure you wan't to delete this page? If you are, then type the following numbers and confirm :",
-			"remove_success": "Page __name__ removed successfully!"
-		},
-		"pages": {
-			"label": "Pages",
-			"title": "Pages",
-			"unwritable_file": "This file is not writable. <a href=\"#\" class=\"fix unwritable\">Fix it</a>",
-			"unwritable_dir": "This directory is not writable. <a href=\"#\" class=\"fix unwritable\">Fix it</a>"
-		},
-		"source": {
-			"label": "Source editor",
-			"title": "Page source editor",
-			"update": "Save source",
-			"test": "Test",
-			"run": "Run",
-			"update_success": "Page __name__ source updated",
-			"confirm_close": "Are you sure you want to close the source without saving your changes? Your changes will be lost.",
-			"confirm_open": "Are you sure you want to open the source before saving your changes? Your changes will be lost.",
-			"error": {
-				"empty": "Can not remove everything. Delete page if you want to remove everything."
-			}
-		},
-		"undo": {
-			"label": "Undo",
-			"title": "Undo changes",
-			"revert": "Restore selected version",
-			"guide": "Restoring old version replaces the current published page with selected old version and makes a backup from current version.",
-			"confirm": "Are you sure you want to replace the current published page with an old version? If so, then type the following numbers:",
-			"title_left": "Backup time",
-			"title_right": "Before operation",
-			"premium_notification": "This \"Undo\"-tool is a premium feature that is free to use (for now)",
-			"type": {
-				"current": "Current page",
-				"revert": "Restore old version",
-				"picker": "Changed editables",
-				"content": "Content change",
-				"sitewide": "Sitewide update",
-				"source": "Source change",
-				"prepare": "CMS additions",
-				"console": "jQuery console"
-			}
-		},
-		"picker": {
-			"label": "Make editable",
-			"pageinpickermode": "Picker mode: Select elements to make them editable. (page javascripts disabled)",
-			"wintitle": "Edit element settings",
-			"options": {
-				"title": "Element",
-				"element": "This element",
-				"siblings": "Same type siblings of this element",
-				"sitewide": "This element on all pages of this site"
-			},
-			"cls": {
-				"groupname": "Edit settings",
-				"editable": "Make this content editable",
-				"imgup": "Allow upload of image",
-				"repeatable": "Allow reordering and modifying of child elements"
-			},
-			"attr": {
-				"groupname": "Options",
-				"sitewide": "Make this element content same on all pages"
-			},
-			"changesdone_onefile": "Element changed successfully in __file__",
-			"changesdone_multiple": "Element changed successfully __file__ files"
-		},
-		"importer": {
-			"label": "Import pages",
-			"title": "Import pages from web",
-			"button": {
-				"test": "Test",
-				"start": "Start",
-				"stop": "Stop"
-			}
-		},
-		"copypaste": {
-			"title": "Import content from web",
-			"guide": "Write url to page"
-		},
-		"styles": {
-			"label": "Style editor",
-			"title": "Colors & styles",
-			"confirm_close": "You have unsaved changes, are you sure you want to close and cancel?",
-			"updated": "Styles updated successfully",
-			"not_updated": "No styles updated. Syntax problem with less file perhaps?"
-		},
-		"forms": {
-			"tab": "Forms",
-			"handler": "Form handler",
-			"hid": "Handler id",
-			"new_handler": "New form handler created!",
-			"hand_updated": "Form handler updated!",
-			"hand_removed": "Form handler removed successfully",
-			"example": "Form handling example",
-			"receiver_validated_true": "ok",
-			"receiver_validated_false": "waiting",
-			"methods": {
-				"label": "Form submission method",
-				"select": "Select method",
-				"email": "Send by email",
-				"post": "HTTP POST to server"
-			},
-			"email": {
-				"placeholder": "receiver@address.com",
-				"subject": "Mail subject",
-				"subject_ph": "Contact from"
-			},
-			"post": {
-				"placeholder": "your.server.com/path/to/service"
-			},
-			"capcha": {
-				"enable": "Spam prevention enabled",
-				"question_label": "CAPTCHA question text",
-				"questiontext1": "Type the following numbers (spam prevention)"
-			},
-			"save": "Save",
-			"grid": {
-				"handler": "Handler",
-				"creator": "Created by",
-				"method": "Method",
-				"receiver": "Receiver",
-				"validated": "Validated",
-				"edit": "Edit",
-				"create": "Create new form handler",
-				"confirm_remove": "Are you sure you want to remove this handler?"
-			}
-		},
-		"emote": {
-			"title_happy": "You are feeling happy! Great, please tell us why.",
-			"title_confused": "Feeling confused? Please tell us why so that we can fix things",
-			"title_angry": "Feeling of anger! Please tell us what is wrong!",
-			"placeholder": "Write your feelings here...",
-			"send": "Send feedback",
-			"feedback_required": "Please write something. We want to have your feedback!",
-			"received": "Feedback sent! Your feedback fill (hopefully) help make TidyCMS a better CMS"
-		},
-		"preview": {
-			"desktop": "Desktop mode",
-			"tablet": "Tablet mode",
-			"mobile": "Mobile mode"
-		},
-		"menu": {
-			"placeholder": "Select menu",
-			"nomenu": "No menu"	
-		},
-		"sourcecode": "Page source",
-		"siteconf": "Settings",
-		"logout": "Logout",
-		"closebar": {
-			"title_open": "Show tool labels",
-			"title_close": "Minmize"
-		},
-		"edit_content": "Edit content",
-		"import_content": "Import content",
-		"clone": "Clone",
-		"add": "Add new",
-		"remove": "Remove",
-		"move_up": "Move up",
-		"move_down": "Move down"
-	},
-	"confirm": {
-		"remove_block": "Are you sure you want to remove this block?",
-		"logout": "Are you sure you want to log out?"
-	},
-	"confirm_unsaved_page": "Are you sure you wan't to navigate away from unsaved page? Your changes will be lost.",
-	"nothing_to_save": "Everything is up to date, nothing saved",
-	"changes_saved": "File __file.name__ updated successfully",
-	"link_click_disabled": "Navigating site from menu is not yet possible. Use Pages-tool from sidebar to navigate."
-},
-
-"oldbrowser": {
-	"title": "We don't know if TidyCMS (beta) works in your browser",
-	"desc": "We have tested and we know TidyCMS works with the latest versions of following browsers:",
-	"continue": "I know what I'm doing, continue!"
-},
-
-"localhost": {
-	"mode": "Localhost mode",
-	"toptitle": "Localhost url already exists",
-	"siteinfo": "A site with {{siteurl}} url <br/> has already been created {{created}} by {{creator}}.",
-	"logtitle": "If this is your site, login with your account",
-	"guide": {
-		"otherwise": "Otherwise, create a new localhost website",
-		"create": "Create a unique localhost address",
-		"description": "If you have not created this site, create your own unique address by renaming / moving your installation to a subfolder with a unique name eg:",
-		"freeurl": "{{freeadr}} (available)"
-	}
-},
-
-"demo": {
-	"welcome": "Welcome to TidyCMS demo. This demo will be available for 1 day and then will be removed."	
-}
-
+  "ui": {
+    "back": "Späť",
+    "email": "E-mail",
+    "password": "Heslo",
+    "cancel": "Zrušiť",
+    "file": "Súbor",
+    "directory": "Adresár",
+    "new": "Nový",
+    "save_changes": "Uložiť zmeny"
+  },
+  "error": {
+    "missing_required_data": "Missing required info",
+    "connection": "Error with TidyCMS PHP. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+    "testing": "test",
+    "env": {
+      "php_ver_less_53": "Error with PHP: Your PHP version is too old. Minimum required PHP version is 5.3 and recommended is 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Read more</a>",
+      "php_phar": "Error with PHP: Your PHP installation is missing Phar-module. Please contact your webserver admin to fix this.",
+      "php_dom": "Error with PHP: Your PHP installation is missing Dom-module. Please contact your webserver admin to fix this.",
+      "php_json": "Error with PHP: Your PHP installation is missing JSON-module. Please contact your webserver admin to fix this.",
+      "php_suhosin_phar": "Error with PHP: Your PHP installation includes the Suhosin protection system which prevents the use of Phar-packages. Php.ini configuration must whitelist the phar module. Contact your webhost and <a href=\"http://tidycms.com/docs/#suhosin\">read more</a>",
+      "php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#installation\">Read more</a>",
+      "win_not_supported": "TidyCMS does not support Windows-environment (yet). Please run this CMS in Linux webhost."
+    },
+    "user": {
+      "email_invalid": "Chyba v e-mailovej adrese.",
+      "weak_password": "Heslo je príliš slabé, použite iné znaky.",
+      "password_mismatch": "Heslá sa nezhodujú.",
+      "alreadyexists": "Účet s týmto e-mailom už existuje! Skúste sa prihlásiť namiesto vytvorenia nového používateľského účtu.",
+      "accountnotfound": "Takýto účet neexistuje. Kontaktujte prosím administrátora webstránky, aby pre vás vytvoril nový používateľský účet.",
+      "wrongpassword": "Nesprávne heslo. Skúste znovu alebo si obnovte heslo klinutím na linku  \"Forgot password\".",
+      "no_invite": "Vaše číslo pozvánky je neplatné. Kontaktujte prosím administrátora webstránky, aby vám poskytol novú pozvánku.",
+      "confirm_fail": "Potvrdenie sa nepodarilo. Skúste znovu"
+    },
+    "authentication": {
+      "api": "Prihlásenie sa nepodarilo. Skúste znovu.",
+      "client": "Prihlásenie sa nepodarilo. Skúste znovu"
+    },
+    "timediff_60s_more": "Your server clock differs more than 60s from universal time. Please contact your hosting admin.",
+    "timediff_60m_more": "Your server clock differs more than 1 hour from universal time. Please contact your hosting admin.",
+    "technical": "Technická chyba, kontaktujte prosím administrátora.",
+    "file": {
+      "not_exists": "Súbor neexistuje",
+      "not_writable": "Do súboru sa nedá zapisovať a nie možné ho upravovať",
+      "upload": "Upload sa nepodaril",
+      "upload_permission": "Upload sa nepodaril. Skontrolujte povolenia",
+      "create_failed": "Nepodarilo sa vytvoriť súbor. Skontrolujte povolenia",
+      "filename_slashend": "Chyba: Odstránte lomku z konca názvu súboru.",
+      "filename_htmlend": "Chyba: Odstránte .html z konca názvu súboru.",
+      "unable_to_remove": "Chyba: Nepodarilo sa odtrániť súbor.",
+      "no_html_files_found": "Chyba: Nenašli sa žiadne .html súbory. Tidy potrebuje aspoň jeden HTML-súbor."
+    },
+    "update": {
+      "failed": "Error in updating TidyCMS. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+    },
+    "element_not_found": "Query neobsahuje daný element"
+  },
+  "user": {
+    "login": {
+      "title": "Prihlásenie",
+      "forgot_password": "Zabudnuté heslo",
+      "send_new_pw": "Poslať nové heslo",
+      "confirm_new_pw": "Potvrďte žiadosť o nové heslo prepísaním nasledujúcich čísel:",
+      "new_password_sent": "Na vašu e-mailovú adresu bolo odoslané nové heslo.",
+      "label": {
+        "email": "E-mail",
+        "password": "Heslo"
+      }
+    },
+    "account": {
+      "create_title": "Vytvoriť účet",
+      "login_title": "Prihlásenie",
+      "label": {
+        "name": "Meno",
+        "first": "Meno",
+        "last": "Priezvisko",
+        "email": "Váš e-mail",
+        "new_password": "Zmeniť heslo",
+        "confirm": "Potvrdiť heslo",
+        "date_added": "Pridané",
+        "language": "Jazyk"
+      },
+      "tab": {
+        "account": "Váš účet",
+        "siteusers": "Používatelia"
+      },
+      "button": {
+        "create": "Vytvoriť účet",
+        "login": "Prihlásenie",
+        "update": "Aktualizovať účet"
+      },
+      "updated": "Váš účet bol úspešne aktualizovaný.",
+      "lang_changed": "Jazyk bol zmenený. Prepnúť na nový jazyk?"
+    },
+    "invite": {
+      "label": "Pozvať používateľov",
+      "placeholder": "prvyemail@adr.com, druhyemail@somebox.com...",
+      "button": "Pozvať",
+      "already_invited": "__email__ už jednu pozvánku dostal",
+      "invite_yourself": "Nemôžete pozvať samého seba",
+      "mail_already_added": "Táto adresa je už v zozname",
+      "success": "__invitecount__ nových používateľov bolo pozvaných na túto stránku",
+      "remove": "Ste si istý, že chcete odstrániť tohto používateľa z tejto stránky?",
+      "user_removed": "__adr__ odstránené zo stránky"
+    },
+    "status": {
+      "invited": "Pozvaný"
+    },
+    "role": "Rola",
+    "role_designer": "Dizajnér",
+    "role_user": "Používateľ"
+  },
+  "site": {
+    "notfound": "Stránka sa na danej adrese nenachádza.",
+    "start": {
+      "title": "Vitajte v TidyCMS! Nastavte si vašu stránku:",
+      "new_user_btn": "Som tu nový/á",
+      "login_with_account": "Prihlásenie do TidyCMS účtu"
+    },
+    "perms": {
+      "tab": "Povolenia pre súbory",
+      "title": "Nastaviť povolenia stránky",
+      "permissions": "Povolenia",
+      "status": {
+        "current": "Aktuálny status",
+        "writable": "Zapisovateľné",
+        "html": "HTML súbory",
+        "dirs": "Adresáre",
+        "tidy": "TidyCMS súbory"
+      },
+      "fix_title": "Upraviť povolenia",
+      "label": {
+        "method": "Metóda pripojenia",
+        "server": "Server",
+        "port": "Port",
+        "user": "Používateľ"
+      },
+      "button": {
+        "setperms": "Nastaviť povolenia",
+        "checkperms": "Skontrolovať povolenia"
+      },
+      "cmd_title": "Príkazový riadok (pokročilé)",
+      "step1": "Pripojiť sa na stránku cez terminál (SSH)",
+      "step2": "Ísť do adresára tidycms inštalácie",
+      "step3": "Spustiť príkaz:"
+    },
+    "validate": {
+      "failed": "Overenie bolo neúspešné, kontaktujte prosím administrátora webstránky",
+      "email_success": "Adresa __email__ bola úspešne overená!",
+      "already_validated": "Adresa __email__ bola overená už skôr"
+    },
+    "goto": {
+      "site": "Zobraziť stránku",
+      "login": "Prihlásiť sa do CMS"
+    }
+  },
+  "editor": {
+    "loading_cms": "Nahrávam TidyCMS... prosím počkajte",
+    "confirm_logout": "Určite sa chcete odhlásiť?",
+    "label": {
+      "editable": "Upraviť",
+      "move": "Presunúť",
+      "editmove": "Upraviť & presunúť",
+      "imgup": "Upraviť obrázok"
+    },
+    "tool": {
+      "savechanges": "Uložiť zmeny",
+      "newpage": {
+        "toolbarbtn": "Nová podstránka",
+        "title": "Pridať podstránku",
+        "label": {
+          "template": "Vybrať šablónu",
+          "pagetitle": "Názov podstránky",
+          "filename": "Nový súbor",
+          "addtomenu": "Pridať do menu",
+          "menuname": "Názov v menu"
+        },
+        "createbtn": "Pridať novú podstránku",
+        "error": {
+          "tpl_notfound": "Šablóna nenájdená",
+          "no_tpls": "Táto webstránka nemá nastavené šablóny, preto nemôžete vytvárať nové podstránky."
+        },
+        "page_created": "Nová podstránka __filename__ bola vytvorená"
+      },
+      "newmenulink": {
+        "title": "Pridať linku",
+        "name": {
+          "label": "Meno",
+          "placeholder": "Moja nová podstránka"
+        },
+        "page_label": "Vybrať podstránku",
+        "href": {
+          "label": "Linka",
+          "placeholder": "/cesta/k/mojej/podstranke.html"
+        },
+        "target": {
+          "label": "Otvoriť v",
+          "sametab": "pôvodnom okne",
+          "newtab": "novom okne (_blank)"
+        },
+        "createbtn": "Vytvoriť linku"
+      },
+      "pageinfo": {
+        "toolbarbtn": "Info o stránke",
+        "tab": {
+          "pageinfo": "Informácie o stránke",
+          "analytics": "Štatistiky"
+        },
+        "label": {
+          "title": "Názov",
+          "desc": "Popis"
+        },
+        "removebtn": "Odstrániť podstránku",
+        "remove_confirm": "Ak ste si naozaj istý, že chcete odstrániť túto podstránku, prepíšte nasledujúce čísla a potvrďte :",
+        "remove_success": "Podstránka __name__ bola odstránená!"
+      },
+      "pages": {
+        "label": "Podstránky",
+        "title": "Podstránky",
+        "unwritable_file": "Tento súbor nie je možné prepisovať. <a href=\"#\" class=\"fix unwritable\">Zmeniť</a>",
+        "unwritable_dir": "Tento adresár nie je možné prepisovať. <a href=\"#\" class=\"fix unwritable\">Zmeniť</a>"
+      },
+      "source": {
+        "label": "Html editor",
+        "title": "Html editor",
+        "update": "Uložiť html",
+        "test": "Testovať",
+        "run": "Spustiť",
+        "update_success": "Zdrojový kód podstránky __name__  bol aktualizovaný",
+        "confirm_close": "Určite chcete zatvoriť html editor bez uloženia zmien? Zmeny sa tak neuplatnia.",
+        "confirm_open": "Určite chcete otvoriť zdrojový kód pred uložením zmien? Zmeny sa tak neuplatnia.",
+        "error": {
+          "empty": "Nie je možné odstrániť všetko. Ak chcete odstrániť všetko, vymažte podstránku."
+        }
+      },
+      "undo": {
+        "label": "Vrátiť zmeny",
+        "title": "Vrátiť zmeny",
+        "revert": "Obnoviť vybranú verziu",
+        "guide": "Obnovenie staršej verzie nahradí aktuálnu stránku vybranou staršou verziou a vytvorí zálohu z aktualnej verzie.",
+        "confirm": "Určite chcete nahradiť aktuálnu verziu stránky staršou verziou? Ak áno, prepíšte nasledujúce čísla:",
+        "title_left": "Čas zálohy",
+        "title_right": "Pred úkonom",
+        "premium_notification": "Tento \"Vrátiť zmeny\"  -nástroj je súčasťou Prémium balíčka, ktorý je (zatiať) k dispozícii zdarma",
+        "type": {
+          "current": "Aktuálna stránka",
+          "revert": "Obnoviť staršiu verziu",
+          "picker": "Zmeniť upravovateľné časti",
+          "content": "Zmena obsahu",
+          "sitewide": "Globálne úpravy",
+          "source": "Úprava html",
+          "prepare": "CMS doplnky",
+          "console": "jQuery konzola"
+        }
+      },
+      "picker": {
+        "label": "Vybrať pre úpravy",
+        "pageinpickermode": "Mód výberu: Zvoľte oblasti stránky určené na upravovanie. (javascript ma stránke je znefunkčnený)",
+        "wintitle": "Upraviť nastavenia oblasti",
+        "options": {
+          "title": "Oblasť",
+          "element": "Táto oblasť",
+          "siblings": "Oblasti rovnakého typu na rovnakej úrovni štruktúry kódu",
+          "sitewide": "Táto oblasť na všetkých podstránkach"
+        },
+        "cls": {
+          "groupname": "Upraviť nastavenia",
+          "editable": "Zmeniť tento obsah na upraviteľný",
+          "imgup": "Povoliť nahranie obrázka",
+          "repeatable": "Povoliť zmenu poradia a úpravu vnorených elementov"
+        },
+        "attr": {
+          "groupname": "Options",
+          "sitewide": "Make this element content same on all pages"
+        },
+        "changesdone_onefile": "Oblasť úspešne upravená v súbore __file__",
+        "changesdone_multiple": "Oblasť úspešne upravená v súboroch __file__ files"
+      },
+      "importer": {
+        "label": "Importovať podstránky",
+        "title": "Importovať podstránky z webu",
+        "button": {
+          "test": "Test",
+          "start": "Štart",
+          "stop": "Stop"
+        }
+      },
+      "copypaste": {
+        "title": "Importovať obsah z webu",
+        "guide": "Zadajte url stránky"
+      },
+      "styles": {
+        "label": "Úprava štýlu",
+        "title": "Farby & štýly",
+        "confirm_close": "Zmeny neboli uložené. Zatvoriť?",
+        "updated": "Štýly boli úspešne upravené",
+        "not_updated": "Žiadne štýly neboli upravené. Problém so syntaxou súborov less?"
+      },
+      "forms": {
+        "tab": "Formuláre",
+        "handler": "Handler formulára",
+        "hid": "Id handlera",
+        "new_handler": "Nový handler formulára bol vytvorený!",
+        "hand_updated": "Handler formulára bol upravený!",
+        "hand_removed": "Handler formulára bol odstránený",
+        "example": "Príklad handlovania formulára",
+        "receiver_validated_true": "ok",
+        "receiver_validated_false": "moment",
+        "methods": {
+          "label": "Metóda potvrdenia formulára",
+          "select": "Výber metódy",
+          "email": "Odoslať e-mailom",
+          "post": "HTTP POST na server"
+        },
+        "email": {
+          "placeholder": "adresat@address.com",
+          "subject": "Predmet e-mailu",
+          "subject_ph": "Kontaktný formulár"
+        },
+        "post": {
+          "placeholder": "vas.server.com/cesta/k/sluzbe"
+        },
+        "capcha": {
+          "enable": "Prevencia spamu",
+          "question_label": "CAPTCHA text",
+          "questiontext1": "Prepíšte tieto čísla (prevencia spamu)"
+        },
+        "save": "Uložiť",
+        "grid": {
+          "handler": "Handler",
+          "creator": "Vytvoril",
+          "method": "Metóda",
+          "receiver": "Príjem",
+          "validated": "Overenie",
+          "edit": "Editácia",
+          "create": "Vytvoriť nový handler",
+          "confirm_remove": "Určite chcete odstránit tento handler?"
+        }
+      },
+      "emote": {
+        "title_happy": "Spokojný/á? Super, napíšte prečo.",
+        "title_confused": "Zmetený/á? Napíšte nám, aby sme to mohli zlepšiť.",
+        "title_angry": "Naštvaný/á? Napíšte nám prečo.",
+        "placeholder": "Napíšte vaše pripomienky a hodnotenia...",
+        "send": "Odoslať",
+        "feedback_required": "Napíšte prosím aspoň pár slov. Váš názor nás zaujíma",
+        "received": "Správa odoslaná! Vďaka vášmu komentáru bude (snáď) TidyCMS opäť o trochu vylepšený."
+      },
+      "preview": {
+        "desktop": "Desktop",
+        "tablet": "Tablet",
+        "mobile": "Mobil"
+      },
+      "menu": {
+        "placeholder": "Vyberte menu",
+        "nomenu": "Žiadne menu"
+      },
+      "sourcecode": "Zdrojový kód",
+      "siteconf": "Nastavenia",
+      "logout": "Odhlásenie",
+      "closebar": {
+        "title_open": "Zobraziť názvy nástrojov",
+        "title_close": "Mimimalizovať"
+      },
+      "edit_content": "Upraviť obsah",
+      "import_content": "Importovať obsah",
+      "clone": "Duplikovať",
+      "add": "Pridať",
+      "remove": "Odstrániť",
+      "move_up": "Posunuť vyššie",
+      "move_down": "Posunúť nižšie"
+    },
+    "confirm": {
+      "remove_block": "Určite chcete odstrániť tento blok?",
+      "logout": "Určite sa chcete odhlásiť?"
+    },
+    "confirm_unsaved_page": "Určite chcete odísť z neuloženej podstránky? Aktuálne zmeny sa neprejavia.",
+    "nothing_to_save": "Všetko je aktuálne, nič nebolo uložené",
+    "changes_saved": "Súbor __file.name__ bol úspešne aktualizovaný",
+    "link_click_disabled": "Navigovanie po podstránkach prostredníctvom menu zatiaľ nie je možné. Použite nástroj Podstránky z bočného menu."
+  },
+  "oldbrowser": {
+    "title": "Nie je isté, že TidyCMS (beta) bude vo vašom prehliadači fungovať",
+    "desc": "Funkčnosť TidyCMS máme otestovanú na najnovších verziách týchto prehliadačov:",
+    "continue": "Viem čo robím, pokračujme!"
+  },
+  "localhost": {
+    "mode": "Localhost mód",
+    "toptitle": "Url localhostu už existuje",
+    "siteinfo": "Stránka s url {{siteurl}} <br/> už bola vytvorená {{created}}. Autor: {{creator}}.",
+    "logtitle": "Ak je toto vaša stránka, prihláste sa cez svoj účet",
+    "guide": {
+      "otherwise": "V opačnom prípade vytvorte novú localhost stránku",
+      "create": "Vytvorte unikátnu adresu localhost",
+      "description": "Ak ste túto stránku nevytvorili vy, vytvorte vašu vlastnú unikátnu adresu premenovaním / prestahovaním vašej inštalácie do podadresára s unikátnym názvom, napr.:",
+      "freeurl": "{{freeadr}} (available)"
+    }
+  },
+  "demo": {
+    "welcome": "Vitajte v demoverzii TidyCMS. Toto demo bude k dispozícii 1 deň. Potom bude odstránené."
+  }
 }
