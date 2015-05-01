@@ -1,0 +1,411 @@
+{
+
+"ui": {
+	"back": "Back",
+	"email": "Email",
+	"password": "Password",
+	"cancel": "Cancel",
+	"file": "File",
+	"directory": "Directory",
+	"new": "New",
+	"save_changes": "Save changes"
+},
+
+"error": {
+	"missing_required_data": "Missing required info",
+	"connection": "Error with TidyCMS PHP. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+	"testing": "test",
+	"env": {
+		"php_ver_less_53": "Error with PHP: Your PHP version is too old. Minimum required PHP version is 5.3 and recommended is 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Read more</a>",
+		"php_phar": "Error with PHP: Your PHP installation is missing Phar-module. Please contact your webserver admin to fix this.",
+		"php_dom": "Error with PHP: Your PHP installation is missing Dom-module. Please contact your webserver admin to fix this.",
+		"php_json": "Error with PHP: Your PHP installation is missing JSON-module. Please contact your webserver admin to fix this.",
+		"php_suhosin_phar": "Error with PHP: Your PHP installation includes the Suhosin protection system which prevents the use of Phar-packages. Php.ini configuration must whitelist the phar module. Contact your webhost and <a href=\"http://tidycms.com/docs/#suhosin\">read more</a>",
+		"php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#installation\">Read more</a>",
+		"win_not_supported": "TidyCMS does not support Windows-environment (yet). Please run this CMS in Linux webhost."
+	},
+	"user": {
+		"email_invalid": "Something wrong in the email address.",
+		"weak_password": "Your password is too weak, use different characters.",
+		"password_mismatch": "Passwords do not match.",
+		"alreadyexists": "A account with this email already exists! Try login instead of creating a new account.",
+		"accountnotfound": "This account does not exist. Please contact site administrator to create an account for you.",
+		"wrongpassword": "Wrong password, try again or reset your password by clicking \"Forgot password\" link.",
+		"no_invite": "Your invite key is not valid for this site. Please contact the site admin to invite you again.",
+		"confirm_fail": "Confirm failed. Please try again"
+	},
+	"authentication": {
+		"api": "Authentication failed, please login again",
+		"client": "Authentication failed, please login again"
+	},
+	"timediff_60s_more": "Your server clock differs more than 60s from universal time. Please contact your hosting admin.",
+	"timediff_60m_more": "Your server clock differs more than 1 hour from universal time. Please contact your hosting admin.",
+	"technical": "Technical error, please contact support.",
+	"file": {
+		"not_exists": "File does not exist",
+		"not_writable": "File is not writable and can not be edited",
+		"upload": "Upload failed",
+		"upload_permission": "Upload failed. Check permissions",
+		"create_failed": "Unable to create file. Check permissions",
+		"filename_slashend": "Error: Remove slash from end of filename",
+		"filename_htmlend": "Error: Remove .html from end of filename",
+		"unable_to_remove": "Error: Could not remove file.",
+		"no_html_files_found": "Error: No .html files found. Tidy requires at least HTML-file to work with."
+	},
+	"update": {
+		"failed": "Error in updating TidyCMS. Please download and reinstall tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+	},
+	"element_not_found": "Element not found with this query"
+},
+
+"user": {
+	"login": {
+		"title": "Login with your account",
+		"forgot_password": "Forgot password",
+		"send_new_pw": "Send new password",
+		"confirm_new_pw": "Confirm you want a new password by typing the next numbers:",
+		"new_password_sent": "We have sent a new password to your email address",
+		"label": {
+			"email": "Email",
+			"password": "Password"
+		}
+	},
+	"account": {
+		"create_title": "Create your account",
+		"login_title": "Login with your TidyCMS account",
+		"label": {
+			"name": "Name",
+			"first": "Firstname",
+			"last": "Lastname",
+			"email": "Your email address",
+			"new_password": "Change password",
+			"confirm": "Confirm password",
+			"date_added": "Added",
+			"language": "Language"
+		},
+		"tab": {
+			"account": "Your account",
+			"siteusers": "Site users"
+		},
+		"button": {
+			"create": "Create account",
+			"login": "Login",
+			"update": "Update account"
+		},
+		"updated": "Your account updated successfully",
+		"lang_changed": "Your language has changed. Load new language?"
+	},
+	"invite": {
+		"label": "Invite users",
+		"placeholder": "firstemail@adr.com, secondadr@somebox.com...",
+		"button": "Invite",
+		"already_invited": "__email__ already invited to this site",
+		"invite_yourself": "You can not invite yourself",
+		"mail_already_added": "This mail address is already in the list",
+		"success": "__invitecount__ new users invited to this site",
+		"remove": "Are you sure you want to remove this user from your site?",
+		"user_removed": "__adr__ removed from this site"
+	},
+	"status": {
+		"invited": "Invited"
+	},
+	"role": "Role",
+	"role_designer": "Designer",
+	"role_user": "User"
+},
+
+"site": {
+	"notfound": "Site not found with this adress.",
+	"start": {
+		"title": "Welcome to TidyCMS! Setup your site:",
+		"new_user_btn": "I am a new user",
+		"login_with_account": "Login with my TidyCMS account"
+	},
+	"perms": {
+		"tab": "File permissions",
+		"title": "Setup your site permissions",
+		"permissions": "Permissions",
+		"status": {
+			"current": "Current status",
+			"writable": "Writable",
+			"html": "HTML files",
+			"dirs": "Directories",
+			"tidy": "TidyCMS files"
+		},
+		"fix_title": "Fix permissions",
+		"label": {
+			"method": "Connection method",
+			"server": "Server",
+			"port": "Port",
+			"user": "Username"
+		},
+		"button": {
+			"setperms": "Set permissions",
+			"checkperms": "Check permissions"
+		},
+		"cmd_title": "Command line (advanced)",
+		"step1": "Connect to your site with terminal (SSH)",
+		"step2": "Go to your tidycms installation folder",
+		"step3": "Run command:"
+	},
+	"validate": {
+		"failed": "Validation failed, please contact your site admin",
+		"email_success": "Address __email__ validated successfully!",
+		"already_validated": "Address __email__ already validated"
+	},
+	"goto": {
+		"site": "Go to your site",
+		"login": "Login to your CMS"
+	}
+},
+
+"editor": {
+	"loading_cms": "Loading TidyCMS resources... please wait a while",
+	"confirm_logout": "Are you sure you want to log out?",
+	"label": {
+		"editable": "edit",
+		"move": "move",
+		"editmove": "edit & move",
+		"imgup": "edit image"
+	},
+	"tool": {
+		"savechanges": "Save changes",
+		"newpage": {
+			"toolbarbtn": "New page",
+			"title": "Create new page",
+			"label": {
+				"template": "Select template",
+				"pagetitle": "Page title",
+				"filename": "New filename",
+				"addtomenu": "Add to menu",
+				"menuname": "Menu title"
+			},
+			"createbtn": "Create new page",
+			"error": {
+				"tpl_notfound": "Template not found",
+				"no_tpls": "This has site no templates and you can not create new pages."
+			},
+			"page_created": "New page __filename__ created"
+		},
+		"newmenulink": {
+			"title": "Add new link",
+			"name": {
+				"label": "Name",
+				"placeholder": "My new page"
+			},
+			"page_label": "Select page",
+			"href": {
+				"label": "Link",
+				"placeholder": "/path/to/my/page.html"
+			},
+			"target": {
+				"label": "Target",
+				"sametab": "Same tab",
+				"newtab": "New tab (_blank)"
+			},
+			"createbtn": "Create new link"
+		},
+		"pageinfo": {
+			"toolbarbtn": "Page info",
+			"tab": {
+				"pageinfo": "Page info",
+				"analytics": "Analytics"
+			},
+			"label": {
+				"title": "Title",
+				"desc": "Description"
+			},
+			"removebtn": "Remove page",
+			"remove_confirm": "Are you sure you wan't to delete this page? If you are, then type the following numbers and confirm :",
+			"remove_success": "Page __name__ removed successfully!"
+		},
+		"pages": {
+			"label": "Pages",
+			"title": "Pages",
+			"unwritable_file": "This file is not writable. <a href=\"#\" class=\"fix unwritable\">Fix it</a>",
+			"unwritable_dir": "This directory is not writable. <a href=\"#\" class=\"fix unwritable\">Fix it</a>"
+		},
+		"source": {
+			"label": "Source editor",
+			"title": "Page source editor",
+			"update": "Save source",
+			"test": "Test",
+			"run": "Run",
+			"update_success": "Page __name__ source updated",
+			"confirm_close": "Are you sure you want to close the source without saving your changes? Your changes will be lost.",
+			"confirm_open": "Are you sure you want to open the source before saving your changes? Your changes will be lost.",
+			"error": {
+				"empty": "Can not remove everything. Delete page if you want to remove everything."
+			}
+		},
+		"undo": {
+			"label": "Undo",
+			"title": "Undo changes",
+			"revert": "Restore selected version",
+			"guide": "Restoring old version replaces the current published page with selected old version and makes a backup from current version.",
+			"confirm": "Are you sure you want to replace the current published page with an old version? If so, then type the following numbers:",
+			"title_left": "Backup time",
+			"title_right": "Before operation",
+			"premium_notification": "This \"Undo\"-tool is a premium feature that is free to use (for now)",
+			"type": {
+				"current": "Current page",
+				"revert": "Restore old version",
+				"picker": "Changed editables",
+				"content": "Content change",
+				"sitewide": "Sitewide update",
+				"source": "Source change",
+				"prepare": "CMS additions",
+				"console": "jQuery console"
+			}
+		},
+		"picker": {
+			"label": "Make editable",
+			"pageinpickermode": "Picker mode: Select elements to make them editable. (page javascripts disabled)",
+			"wintitle": "Edit element settings",
+			"options": {
+				"title": "Element",
+				"element": "This element",
+				"siblings": "Same type siblings of this element",
+				"sitewide": "This element on all pages of this site"
+			},
+			"cls": {
+				"groupname": "Edit settings",
+				"editable": "Make this content editable",
+				"imgup": "Allow upload of image",
+				"repeatable": "Allow reordering and modifying of child elements"
+			},
+			"attr": {
+				"groupname": "Options",
+				"sitewide": "Make this element content same on all pages"
+			},
+			"changesdone_onefile": "Element changed successfully in __file__",
+			"changesdone_multiple": "Element changed successfully __file__ files"
+		},
+		"importer": {
+			"label": "Import pages",
+			"title": "Import pages from web",
+			"button": {
+				"test": "Test",
+				"start": "Start",
+				"stop": "Stop"
+			}
+		},
+		"copypaste": {
+			"title": "Import content from web",
+			"guide": "Write url to page"
+		},
+		"styles": {
+			"label": "Style editor",
+			"title": "Colors & styles",
+			"confirm_close": "You have unsaved changes, are you sure you want to close and cancel?",
+			"updated": "Styles updated successfully",
+			"not_updated": "No styles updated. Syntax problem with less file perhaps?"
+		},
+		"forms": {
+			"tab": "Forms",
+			"handler": "Form handler",
+			"hid": "Handler id",
+			"new_handler": "New form handler created!",
+			"hand_updated": "Form handler updated!",
+			"hand_removed": "Form handler removed successfully",
+			"example": "Form handling example",
+			"receiver_validated_true": "ok",
+			"receiver_validated_false": "waiting",
+			"methods": {
+				"label": "Form submission method",
+				"select": "Select method",
+				"email": "Send by email",
+				"post": "HTTP POST to server"
+			},
+			"email": {
+				"placeholder": "receiver@address.com",
+				"subject": "Mail subject",
+				"subject_ph": "Contact from"
+			},
+			"post": {
+				"placeholder": "your.server.com/path/to/service"
+			},
+			"capcha": {
+				"enable": "Spam prevention enabled",
+				"question_label": "CAPTCHA question text",
+				"questiontext1": "Type the following numbers (spam prevention)"
+			},
+			"save": "Save",
+			"grid": {
+				"handler": "Handler",
+				"creator": "Created by",
+				"method": "Method",
+				"receiver": "Receiver",
+				"validated": "Validated",
+				"edit": "Edit",
+				"create": "Create new form handler",
+				"confirm_remove": "Are you sure you want to remove this handler?"
+			}
+		},
+		"emote": {
+			"title_happy": "You are feeling happy! Great, please tell us why.",
+			"title_confused": "Feeling confused? Please tell us why so that we can fix things",
+			"title_angry": "Feeling of anger! Please tell us what is wrong!",
+			"placeholder": "Write your feelings here...",
+			"send": "Send feedback",
+			"feedback_required": "Please write something. We want to have your feedback!",
+			"received": "Feedback sent! Your feedback fill (hopefully) help make TidyCMS a better CMS"
+		},
+		"preview": {
+			"desktop": "Desktop mode",
+			"tablet": "Tablet mode",
+			"mobile": "Mobile mode"
+		},
+		"menu": {
+			"placeholder": "Select menu",
+			"nomenu": "No menu"	
+		},
+		"sourcecode": "Page source",
+		"siteconf": "Settings",
+		"logout": "Logout",
+		"closebar": {
+			"title_open": "Show tool labels",
+			"title_close": "Minmize"
+		},
+		"edit_content": "Edit content",
+		"import_content": "Import content",
+		"clone": "Clone",
+		"add": "Add new",
+		"remove": "Remove",
+		"move_up": "Move up",
+		"move_down": "Move down"
+	},
+	"confirm": {
+		"remove_block": "Are you sure you want to remove this block?",
+		"logout": "Are you sure you want to log out?"
+	},
+	"confirm_unsaved_page": "Are you sure you wan't to navigate away from unsaved page? Your changes will be lost.",
+	"nothing_to_save": "Everything is up to date, nothing saved",
+	"changes_saved": "File __file.name__ updated successfully",
+	"link_click_disabled": "Navigating site from menu is not yet possible. Use Pages-tool from sidebar to navigate."
+},
+
+"oldbrowser": {
+	"title": "We don't know if TidyCMS (beta) works in your browser",
+	"desc": "We have tested and we know TidyCMS works with the latest versions of following browsers:",
+	"continue": "I know what I'm doing, continue!"
+},
+
+"localhost": {
+	"mode": "Localhost mode",
+	"toptitle": "Localhost url already exists",
+	"siteinfo": "A site with {{siteurl}} url <br/> has already been created {{created}} by {{creator}}.",
+	"logtitle": "If this is your site, login with your account",
+	"guide": {
+		"otherwise": "Otherwise, create a new localhost website",
+		"create": "Create a unique localhost address",
+		"description": "If you have not created this site, create your own unique address by renaming / moving your installation to a subfolder with a unique name eg:",
+		"freeurl": "{{freeadr}} (available)"
+	}
+},
+
+"demo": {
+	"welcome": "Welcome to TidyCMS demo. This demo will be available for 1 day and then will be removed."	
+}
+
+}
