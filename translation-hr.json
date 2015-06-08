@@ -1,0 +1,411 @@
+{
+
+"ui": {
+	"back": "Natrag",
+	"email": "Email",
+	"password": "Lozinka",
+	"cancel": "Otkaži",
+	"file": "Fajl",
+	"directory": "Direktorij",
+	"new": "Novo",
+	"save_changes": "Sačuvaj promjene"
+},
+
+"error": {
+	"missing_required_data": "Nedostaju traženi podaci",
+	"connection": "Greška sa TidyCMS PHP. Molimo preuzmite i ponovo instalirajte tidycms.zip sa <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+	"testing": "test",
+	"env": {
+		"php_ver_less_53": "PHP greška: Tvoja PHP verzija je prestara. Minimum tražene PHP verzije je 5.3 a preporučljiva je 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Pročitaj više</a>",
+		"php_phar": "PHP greška: Tvojoj PHP instalaciji nedostaje Phar-modul. Kontaktiraj svog administratora webservera da popravi ovo.",
+		"php_dom": "PHP greška: Tvojoj PHP instalaciji nedostaje Dom-modul. Kontaktiraj svog administraotra webservra da popravi ovo.",
+		"php_json": "PHP greška: Tvojoj PHP instalaciji nedostaje JSON-modul. Kontaktiraj svog  administratora webservera da popravi ovo.",
+		"php_suhosin_phar": "PHP greška: Tvoja PHP instalacija uključuje Suhosin zaštitni sustav koji sprječava korištenje Phar-packages. Php.ini konfiguracija mora whitelist phar modul. Contact your webhost and <a href=\"http://tidycms.com/docs/#suhosin\">read more</a>",
+		"php_connection": "Unable to connect with PHP-script. Please check your webserver PHP installation. <a href=\"http://tidycms.com/docs/#installation\">Pročitaj više</a>",
+		"win_not_supported": "TidyCMS ne podržava Windows-okružje (još). Ovaj CMS je namijenjen korištenju na Linux baziranim webhostovima."
+	},
+	"user": {
+		"email_invalid": "Nešto je pogrešno sa email adresom.",
+		"weak_password": "Tvoja lozinka je preslaba, upotrijebi različite znakove.",
+		"password_mismatch": "Lozinke se ne slažu.",
+		"alreadyexists": "Račun sa ovim emailom već postoji! Pokušaj se ulogirati umjesto stvaranja novog računa.",
+		"accountnotfound": "Ovaj račun ne postoji. Kontaktiraj administratora stranice da stvori korisnički račun za tebe.",
+		"wrongpassword": "Pogrešna lozinka, pokušaj opet ili resetiraj svoju lozinku klikom na \"Forgot password\" link.",
+		"no_invite": "Tvoj pozivni ključ nije valjan za ovu stranicu. Kontaktiraj administratora stranice kako bi te opet pozvao.",
+		"confirm_fail": "Potvrda nije uspjela. Probaj opet."
+	},
+	"authentication": {
+		"api": "Autentikacija nije uspjela, molimo ulogirajte se opet",
+		"client": "Autentikacija nije uspjela, molimo ulogirajte se opet"
+	},
+	"timediff_60s_more": "Sat tvog servera odstupa više od 60s od univerzalnog vremena. Kontaktiraj admina svog hostinga.",
+	"timediff_60m_more": "Sat tvog servera odstupa više od jednog sata od univerzalnog vremena. Kontaktiraj admina svog hostinga.",
+	"technical": "Tehnička greška, molimo kontaktirajte podršku.",
+	"file": {
+		"not_exists": "Fajl ne postoji",
+		"not_writable": "Fajl nije izmjenjiv i ne može biti editiran",
+		"upload": "Upload nije uspio", 
+		"upload_permission": "Upload nije uspio. Provjeri dopuštenja",
+		"create_failed": "Stvaranje fajla nije uspjelo. Provjeri dopuštenja",
+		"filename_slashend": "Greška: Makni slash / sa kraja imena fajla",
+		"filename_htmlend": "Greška: Makni .html sa kraja imena fajla",
+		"unable_to_remove": "Greška: ne mogu maknuti fajl.",
+		"no_html_files_found": "Greška: .html fajlovi nisu nađeni. Tidy treba bar 1 HTML-fajl s kojim bi radio."
+	},
+	"update": {
+		"failed": "Greška u updating TidyCMS. Molim te preuzmi i ponovo instaliraj tidycms.zip sa <a href=\"http://tidycms.com\">http://tidycms.com</a>"
+	},
+	"element_not_found": "Element nije nađen sa ovom pretragom"
+},
+
+"user": {
+	"login": {
+		"title": "Ulogiraj se sa svojim računom",
+		"forgot_password": "Zaboravih lozinku",
+		"send_new_pw": "Pošalji novu lozinku",
+		"confirm_new_pw": "Potvrdi da želiš novu lozinku tipkanjem sljedećih brojeva:",
+		"new_password_sent": "Nova lozinka je poslana na tvoju email adresu",
+		"label": {
+			"email": "Email",
+			"password": "lozinka"
+		}
+	},
+	"account": {
+		"create_title": "Stvori svoj račun",
+		"login_title": "Ulogiraj se sa Tidy CMS računom",
+		"label": {
+			"name": "Ime",
+			"first": "Ime",
+			"last": "Prezime",
+			"email": "Tvoja email adresa",
+			"new_password": "Promijeni lozinku",
+			"confirm": "Potvrdi lozinku",
+			"date_added": "Dodano",
+			"language": "Jezik"
+		},
+		"tab": {
+			"account": "Tvoj račun",
+			"siteusers": "Korisnici stranice",
+		},
+		"button": {
+			"create": "Stvori račun",
+			"login": "Login",
+			"update": "Izmjeni račun"
+		},
+		"updated": "Tvoj račun je uspješno obnovljen",
+		"lang_changed": "Tvoj jezik je promijenjen. Da učitam novi jezik?"
+	},
+	"invite": {
+		"label": "Pozovi korisnike",
+		"placeholder": "firstemail@adr.com, secondadr@somebox.com...",
+		"button": "Pozovi",
+		"already_invited": "__email__ je već pozvan na ovu stranicu",
+		"invite_yourself": "Ne možeš pozvati sebe",
+		"mail_already_added": "Ova email adresa je već na listi",
+		"success": "__invitecount__ novi korisnici pozvani na ovu stranicu",
+		"remove": "Jesi li siguran da želiš maknuti ovog korisnika sa stranice?",
+		"user_removed": "__adr__ maknuti sa ove stranice"
+	},
+	"status": {
+		"invited": "Pozvani"
+	},
+	"role": "Uloga",
+	"role_designer": "Dizajner",
+	"role_user": "Korisnik"
+},
+
+"site": {
+	"notfound": "Stranica sa ovom adresom nije nađena.",
+	"start": {
+		"title": "Dobro došao u TidyCMS! Postavi svoju stranicu:",
+		"new_user_btn": "Ja sam novi korisnik",
+		"login_with_account": "Ulogiraj se sa mojim TidyCMS podacima"
+	},
+	"perms": {
+		"tab": "Dopuštenja fajla",
+		"title": "Postavi dopuštenja svoje stranice",
+		"permissions": "Dopuštenja",
+		"status": {
+			"current": "Trenutni status",
+			"writable": "Izmjenjivo",
+			"html": "HTML fajlovi",
+			"dirs": "Direktoriji",
+			"tidy": "TidyCMS fajlovi"
+		},
+		"fix_title": "Popravi dopuštenja",
+		"label": {
+			"method": "Metoda spajanja",
+			"server": "Server",
+			"port": "Port",
+			"user": "Korisničko ime"
+		},
+		"button": {
+			"setperms": "Postavi dopuštenja",
+			"checkperms": "Provjeri dopuštenja"
+		},
+		"cmd_title": "Zapovjedna linija (napredno)",
+		"step1": "Poveži se sa svojom stranicom kroz terminal (SSH)",
+		"step2": "Idi u instalacijski folder tidycms-a",
+		"step3": "Izvrši zapovjed:"
+	},
+	"validate": {
+		"failed": "Validacija nije uspjela, kontaktiraj administratora",
+		"email_success": "Addresa __email__ uspješno provjerena!",
+		"already_validated": "Addresa __email__ je već provjerena"
+	},
+	"goto": {
+		"site": "Idi na svoju stranicu",
+		"login": "Ulogiraj se u CMS"
+	}
+},
+
+"editor": {
+	"loading_cms": "Učitavam TidyCMS resurse.. pričekaj malo",
+	"confirm_logout": "Jesi li siguran da se želiš odlogirati?",
+	"label": {
+		"editable": "uredi",
+		"move": "pomakni",
+		"editmove": "uredi i pomakni",
+		"imgup": "udredi sliku"
+	},
+	"tool": {
+		"savechanges": "Sačuvaj promjene",
+		"newpage": {
+			"toolbarbtn": "Nova stranica",
+			"title": "Stvori novu stranicu",
+			"label": {
+				"template": "Odaberi template",
+				"pagetitle": "Ime stranice",
+				"filename": "Novo ime fajla",
+				"addtomenu": "Dodaj u meni",
+				"menuname": "Ime menia"
+			},
+			"createbtn": "Stvori novu stranicu",
+			"error": {
+				"tpl_notfound": "Template nije nađen",
+				"no_tpls": "Ovaj sajt nema templatea i ne možeš stvoriti nove stranice."
+			},
+			"page_created": "Nova stranica __filename__ stvorena"
+		},
+		"newmenulink": {
+			"title": "Dodaj novi link",
+			"name": {
+				"label": "Ime",
+				"placeholder": "Moja nova stranica"
+			},
+			"page_label": "Odaberi stranicu",
+			"href": {
+				"label": "Link",
+				"placeholder": "/put/do/moje/stranice.html"
+			},
+			"target": {
+				"label": "Target",
+				"sametab": "Isti tab",
+				"newtab": "Novi tb (_blank)" 
+			},
+			"createbtn": "Stvori novi link"
+		},
+		"pageinfo": {
+			"toolbarbtn": "Info stranice",
+			"tab": {
+				"pageinfo": "Info stranice",
+				"analytics": "Analitike"
+			},
+			"label": {
+				"title": "Naslov",
+				"desc": "Opis"
+			},
+			"removebtn": "Makni stranicu",
+			"remove_confirm": "Jesi li siguran da želiš obrisati ovu stranicu? Ako jesi, tada utipkaj sljedeće brojeve i potvrdi:",
+			"remove_success": "Stranica __name__ uspješno maknuta!"
+		},
+		"pages": {
+			"label": "Stranice",
+			"title": "Stranice",
+			"unwritable_file": "Ovaj fajl nije izmjenjiv. <a href=\"#\" class=\"fix unwritable\">Popravi</a>",
+			"unwritable_dir": "Ovaj direktorij nije izmjenjiv. <a href=\"#\" class=\"fix unwritable\">Popravi</a>"
+		},
+		"source": {
+			"label": "Source editor",
+			"title": "Page source editor",
+			"update": "Sačuvaj source",
+			"test": "Testiraj",
+			"run": "Run",
+			"update_success": "Stranica __name__ source izmjenjena",
+			"confirm_close": "Jesi li siguran da želiš zatvoriti source bez sačuvanih izmjena? Tvoje izmjene će biti izgubljene.",
+			"confirm_open": "Jesi li siguran da želiš otvoriti source prije no što sačuvaš izmjene? Tvoje izmjene će biti izgubljene.",
+			"error": {
+				"empty": "Ne možeš maknuti sve. Obriši stranicu ako želiš sve maknuti."
+			}
+		},
+		"undo": {
+			"label": "Poništi",
+			"title": "Poništi promjene",
+			"revert": "Vrati odabranu verziju",
+			"guide": "Vraćanje stare verzije zamjenjuje trenutno objavljenu stranicu sa odabranom starijom verzijom i radi sigurnosnu kopiju trenutne verzije.",
+			"confirm": "Jesi li siguran da želiš zamjeniti trenutno objavljenu stranicu sa starom verzijom? Ako je tako, tada utipkaj sljedeće brojeve:",
+			"title_left": "Backup vrijeme",
+			"title_right": "Prije operacije",
+			"premium_notification": "Ovaj \"Poništi\"-alat je premium feature koja se može besplatno koristiti (za sada)",
+			"type": {
+				"current": "Trenutna stranica",
+				"revert": "Vrati staru verziju",
+				"picker": "Changed editables",
+				"content": "Promjena sadržaja",
+				"sitewide": "Sitewide update",
+				"source": "Source change",
+				"prepare": "CMS dodaci",
+				"console": "jQuery konzola"
+			}
+		},
+		"picker": {
+			"label": "Učini izmjenjivim",
+			"pageinpickermode": "Picker mod: Odaberi elemente kako bi ih učinio izmjenjivim. (javascript skripte onemogućene)",
+			"wintitle": "Izmjeni postavke elementa",
+			"options": {
+				"title": "Element",
+				"element": "Ovaj element",
+				"siblings": "Same type siblings ovog elementa",
+				"sitewide": "Ovaj element na svim stranicama ovog sajta"
+			},
+			"cls": {
+				"groupname": "Izmjeni postavke",
+				"editable": "Učini ovaj sadržaj izmjenjivim",
+				"imgup": "Dopusti upload slike",
+				"repeatable": "Dopusti sređivanje i modificiranje child elemenata"
+			},
+			"attr": {
+				"groupname": "Opcije",
+				"sitewide": "Učini ovaj sadržaj jednakim na svim stranicama"
+			},
+			"changesdone_onefile": "Element izmjenjen uspješno u __file__",
+			"changesdone_multiple": "Element izmjenjen uspješno  __file__ fajlovi"
+		},
+		"importer": {
+			"label": "Uvezi stranice",
+			"title": "Uvezi stranice sa weba",
+			"button": {
+				"test": "Test",
+				"start": "Počni",
+				"stop": "Stani"
+			}
+		},
+		"copypaste": {
+			"title": "Uvezi sadržaj sa weba",
+			"guide": "Napiši url do stranice"
+		},
+		"styles": {
+			"label": "Editor stila",
+			"title": "Boje i stilovi",
+			"confirm_close": "Imaš nesačuvane promjene, jesi li siguran da želiš zatvoriti i otkazati?",
+			"updated": "Stilovi uspješno izmjenjeni",
+			"not_updated": "Nijedan stil nije ažuriran. Syntax problem sa less fajlom možda?"
+		},
+		"forms": {
+			"tab": "Forme",
+			"handler": "Obrađivač formi",
+			"hid": "Handler id",
+			"new_handler": "Novi obrađivač formi je stvoren!",
+			"hand_updated": "Obrađivač formi ažuriran!",
+			"hand_removed": "Obrađivač formi uspješno maknut",
+			"example": "Form handling promjer",
+			"receiver_validated_true": "ok",
+			"receiver_validated_false": "čekam",
+			"methods": {
+				"label": "Metoda slanja formi",
+				"select": "Odaberi metodu",
+				"email": "Pošalji emailom",
+				"post": "HTTP POST na server"
+			},
+			"email": {
+				"placeholder": "primatelj@adresa.com",
+				"subject": "Naslov Maila",
+				"subject_ph": "Kontakt od"
+			},
+			"post": {
+				"placeholder": "tvoj.server.com/put/do/usluge"
+			},
+			"capcha": {
+				"enable": "Spam prevencija omogućena",
+				"question_label": "CAPTCHA pitanje",
+				"questiontext1": "Utipkaj sljedeće brojeve (prevencija spama)"
+			},
+			"save": "Sačuvaj",
+			"grid": {
+				"handler": "Handler",
+				"creator": "Stvoreno od",
+				"method": "Metoda",
+				"receiver": "Primatelj",
+				"validated": "Provjereno",
+				"edit": "Uredi",
+				"create": "Stvori novi obrađivač formi",
+				"confirm_remove": "Jesi li siguran da želiš maknuti ovaj obrađivač?"
+			}
+		},
+		"emote": {
+			"title_happy": "Osjećaš se sretno! Sjajno, reci nam zašto.",
+			"title_confused": "Osjećaš se zbunjeno? Reci nam zašto, tako da možemo popraviti stvari",
+			"title_angry": "Osjećaš se bijesno! Reci nam što nije u redu!",
+			"placeholder": "Napiši svoje osjećaje ovdje...",
+			"send": "Pošalji povratnu informaciju",
+			"feedback_required": "Napiši nešto. Želimo 'čuti' tvoju povratnu informaciju!",
+			"received": "Povratna informacija poslana! Tvoja povratna informacija će (nadamo se) pomoći učiniti TidyCMS boljim CMS-om"
+		},
+		"preview": {
+			"desktop": "Desktop mod",
+			"tablet": "Tablet mod",
+			"mobile": "Mobilni mod"
+		},
+		"menu": {
+			"placeholder": "Odaberi meni",
+			"nomenu": "No menu"	
+		},
+		"sourcecode": "Izvor stranice",
+		"siteconf": "Postavke",
+		"logout": "Odjava",
+		"closebar": {
+			"title_open": "Prikaži tool labels",
+			"title_close": "Smanji"
+		},
+		"edit_content": "Uredi sadržaj",
+		"import_content": "Uvezi sadržaj",
+		"clone": "Kloniraj",
+		"add": "Dodaj novi",
+		"remove": "Makni",
+		"move_up": "Pomakni gore",
+		"move_down": "Pomakni dolje"
+	},
+	"confirm": {
+		"remove_block": "Jesi li siguran da želiš maknuti ovaj blok?",
+		"logout": "Jesi li siguran da se želiš odjaviti?"
+	},
+	"confirm_unsaved_page": "Jesi li siguran da želiš otići sa nesačuvane stranice? Tvoje promjene će biti izgubljene.",
+	"nothing_to_save": "Sve je up to date, ništa nije sačuvano",
+	"changes_saved": "File __file.name__ uspješno ažuriran",
+	"link_click_disabled": "Navigiranje stranicom iz menia još nije moguće. Koristi Pages-tool sa sidebar to navigate."
+},
+
+"oldbrowser": {
+	"title": "Ne znamo da li TidyCMS (beta) radi u tvom pregledniku",
+	"desc": "Testirali smo i znamo da TidyCMS radi sa najkasnijim verzijama sljedećih preglednika:",
+	"continue": "Znam što radim, nastavi!"
+},
+
+"localhost": {
+	"mode": "Localhost mod",
+	"toptitle": "Localhost url već postoji",
+	"siteinfo": "Stranica sa {{siteurl}} url <br/> je već stvorena {{created}} od {{creator}}.",
+	"logtitle": "Ako je ovo tvoja stranica, ulogiraj se sa svojim podacima",
+	"guide": {
+		"otherwise": "U suprotnom, stvori novu localhost webstranicu",
+		"create": "Stvori jedinstvenu localhost adresu",
+		"description": "Ako ti nisi napravio ovu stranicu, stvori svoju jedinstvenu adresu preimenujući / mičući svoju instalaciju u podfolder sa jedinstvenim imenom:",
+		"freeurl": "{{freeadr}} (available)"
+	}
+},
+
+"demo": {
+	"welcome": "Dobro došao u TidyCMS demo. Ovaj demo će biti dostupan 1 dan i tada će biti maknut."	
+}
+
+}
