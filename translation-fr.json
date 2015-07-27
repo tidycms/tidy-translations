@@ -11,10 +11,10 @@
   },
   "error": {
     "missing_required_data": "Informations manquantes",
-    "connection": "Une erreur a été rencontrée avec TidyCMS PHP. Téléchargez et installez à nouveau tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>",
+    "connection": "Une erreur est survenue avec TidyCMS PHP. Téléchargez et installez à nouveau tidycms.zip from <a href=\"http://tidycms.com\">http://tidycms.com</a>",
     "testing": "test",
     "env": {
-      "php_ver_less_53": "Erreur PHP: Votre version de PHP est trop ancienne. La version minimale requise est PHP version 5.3 et la version recommandée est 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Plus d'informations</a>",
+      "php_ver_less_53": "Erreur PHP: Version de PHP trop ancienne. La version minimale requise est PHP 5.3 et la version recommandée est 5.5. <a href=\"http://tidycms.com/docs/#h-installation\">Plus d'informations</a>",
       "php_phar": "Erreur PHP: Votre installation PHP ne dispose pas du module Phar. Contactez votre administrateur pour régler ce problème.",
       "php_dom": "Erreur PHP: Votre installation PHP ne dispose pas du module Dom-module. Contactez votre administrateur pour régler ce problème.",
       "php_json": "rreur PHP: Votre installation PHP ne dispose pas du module JSON-module. Contactez votre administrateur pour régler ce problème.",
@@ -397,6 +397,6 @@
     }
   },
   "demoD": {
-    "welcome": "Bienvenue sur la démo de TidyCMS. Cet espace sera disponible durant 1 jour puis sera supprimée."
+    "welcome": "Bienvenue sur la démo de TidyCMS. Cet espace sera disponible durant 1 jour puis sera supprimé."
   }
 }
